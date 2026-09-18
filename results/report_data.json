@@ -1,0 +1,269 @@
+{
+  "test_cases": [
+    {
+      "name": "Credit card (Luhn checksum)",
+      "input_text": "Please charge my card 4111 1111 1111 1111 for the order.",
+      "detected": [
+        {
+          "entity_type": "CREDIT_CARD",
+          "start": 22,
+          "end": 41,
+          "score": 1.0,
+          "matched_text": "4111 1111 1111 1111"
+        }
+      ],
+      "anonymized_text": "Please charge my card ************11 1111 for the order."
+    },
+    {
+      "name": "Email address",
+      "input_text": "You can reach the support team at john.smith@example.com anytime.",
+      "detected": [
+        {
+          "entity_type": "EMAIL_ADDRESS",
+          "start": 34,
+          "end": 56,
+          "score": 1.0,
+          "matched_text": "john.smith@example.com"
+        },
+        {
+          "entity_type": "URL",
+          "start": 34,
+          "end": 41,
+          "score": 0.5,
+          "matched_text": "john.sm"
+        },
+        {
+          "entity_type": "URL",
+          "start": 45,
+          "end": 56,
+          "score": 0.5,
+          "matched_text": "example.com"
+        }
+      ],
+      "anonymized_text": "You can reach the support team at 9e97297761c898e4f65e61c9a677d53030472caf19e8a8bf31698e1ba9cd7593 anytime."
+    },
+    {
+      "name": "Phone number (python-phonenumbers)",
+      "input_text": "Call the clinic at +1 415-555-2671 to book an appointment.",
+      "detected": [
+        {
+          "entity_type": "PHONE_NUMBER",
+          "start": 19,
+          "end": 34,
+          "score": 0.4,
+          "matched_text": "+1 415-555-2671"
+        }
+      ],
+      "anonymized_text": "Call the clinic at  to book an appointment."
+    },
+    {
+      "name": "IBAN (mod-97 checksum)",
+      "input_text": "Please wire the deposit to IBAN DE89370400440532013000 before Friday.",
+      "detected": [
+        {
+          "entity_type": "IBAN_CODE",
+          "start": 32,
+          "end": 54,
+          "score": 1.0,
+          "matched_text": "DE89370400440532013000"
+        }
+      ],
+      "anonymized_text": "Please wire the deposit to IBAN <IBAN> before Friday."
+    },
+    {
+      "name": "IP address",
+      "input_text": "Suspicious login detected from 192.168.1.10 at 3 AM.",
+      "detected": [
+        {
+          "entity_type": "IP_ADDRESS",
+          "start": 31,
+          "end": 43,
+          "score": 0.6,
+          "matched_text": "192.168.1.10"
+        }
+      ],
+      "anonymized_text": "Suspicious login detected from 192.16###### at 3 AM."
+    },
+    {
+      "name": "MAC address",
+      "input_text": "The device with MAC 00:1A:2B:3C:4D:5E was flagged by the firewall.",
+      "detected": [
+        {
+          "entity_type": "MAC_ADDRESS",
+          "start": 20,
+          "end": 37,
+          "score": 0.6,
+          "matched_text": "00:1A:2B:3C:4D:5E"
+        }
+      ],
+      "anonymized_text": "The device with MAC <MAC_ADDRESS> was flagged by the firewall."
+    },
+    {
+      "name": "Date (numeric formats)",
+      "input_text": "The invoice is dated 2024-03-15 and due on 04/20/2024.",
+      "detected": [
+        {
+          "entity_type": "DATE_TIME",
+          "start": 21,
+          "end": 31,
+          "score": 0.6,
+          "matched_text": "2024-03-15"
+        },
+        {
+          "entity_type": "DATE_TIME",
+          "start": 43,
+          "end": 53,
+          "score": 0.6,
+          "matched_text": "04/20/2024"
+        }
+      ],
+      "anonymized_text": "The invoice is dated <DATE> and due on <DATE>."
+    },
+    {
+      "name": "URL",
+      "input_text": "Full details are posted at https://billing.example.com/invoice/8842.",
+      "detected": [
+        {
+          "entity_type": "URL",
+          "start": 27,
+          "end": 68,
+          "score": 0.6,
+          "matched_text": "https://billing.example.com/invoice/8842."
+        }
+      ],
+      "anonymized_text": "Full details are posted at <LINK>"
+    },
+    {
+      "name": "UUID",
+      "input_text": "Reference ticket 8f14e45f-ceea-467e-a92c-25f6fdd0e9f1 for details.",
+      "detected": [
+        {
+          "entity_type": "UUID",
+          "start": 17,
+          "end": 53,
+          "score": 0.5,
+          "matched_text": "8f14e45f-ceea-467e-a92c-25f6fdd0e9f1"
+        }
+      ],
+      "anonymized_text": "Reference ticket <UUID> for details."
+    },
+    {
+      "name": "Crypto wallet (Base58 + Bech32 checksum)",
+      "input_text": "Send the refund to BTC wallet 1BoatSLRHtKNngkdXEeobR76b53LETtpyT.",
+      "detected": [
+        {
+          "entity_type": "CRYPTO",
+          "start": 30,
+          "end": 64,
+          "score": 1.0,
+          "matched_text": "1BoatSLRHtKNngkdXEeobR76b53LETtpyT"
+        }
+      ],
+      "anonymized_text": "Send the refund to BTC wallet <WALLET>."
+    },
+    {
+      "name": "Combined text - shows the NER limitation",
+      "input_text": "Hi, this is John Smith from Acme Corp. You can reach me at john.smith@example.com or call +1 415-555-2671.",
+      "detected": [
+        {
+          "entity_type": "EMAIL_ADDRESS",
+          "start": 59,
+          "end": 81,
+          "score": 1.0,
+          "matched_text": "john.smith@example.com"
+        },
+        {
+          "entity_type": "URL",
+          "start": 59,
+          "end": 66,
+          "score": 0.5,
+          "matched_text": "john.sm"
+        },
+        {
+          "entity_type": "URL",
+          "start": 70,
+          "end": 81,
+          "score": 0.5,
+          "matched_text": "example.com"
+        },
+        {
+          "entity_type": "PHONE_NUMBER",
+          "start": 90,
+          "end": 105,
+          "score": 0.4,
+          "matched_text": "+1 415-555-2671"
+        }
+      ],
+      "anonymized_text": "Hi, this is John Smith from Acme Corp. You can reach me at 804e9e5b966bf110f64e82ab4733f77b72a27a3dbd6d05b8264b64343b9ad919 or call ."
+    }
+  ],
+  "evaluation": {
+    "dataset_records": 1500,
+    "per_type": [
+      {
+        "entity_type": "CREDIT_CARD",
+        "tp": 105,
+        "fp": 0,
+        "fn": 31,
+        "precision": 1.0,
+        "recall": 0.77,
+        "f1": 0.87
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "tp": 48,
+        "fp": 0,
+        "fn": 71,
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1": 0.57
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "tp": 49,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "entity_type": "IBAN_CODE",
+        "tp": 20,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1": 0.98
+      },
+      {
+        "entity_type": "IP_ADDRESS",
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "tp": 54,
+        "fp": 20,
+        "fn": 38,
+        "precision": 0.73,
+        "recall": 0.59,
+        "f1": 0.65
+      }
+    ],
+    "micro_avg": {
+      "tp": 290,
+      "fp": 20,
+      "fn": 141,
+      "precision": 0.94,
+      "recall": 0.67,
+      "f1": 0.78
+    },
+    "out_of_scope_ground_truth_spans": 2432,
+    "unscored_predictions": 86
+  }
+}
