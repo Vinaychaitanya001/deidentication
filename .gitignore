@@ -1,0 +1,12 @@
+# Virtual environment - contains spaCy model binaries, platform-specific, ~300MB
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db

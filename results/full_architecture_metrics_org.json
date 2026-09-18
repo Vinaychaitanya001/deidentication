@@ -1,0 +1,192 @@
+{
+  "config": {
+    "model": "en_core_web_sm",
+    "include_organization": true,
+    "records": 1500
+  },
+  "recall_by_dataset_label": [
+    {
+      "label": "PERSON",
+      "found": 549,
+      "missed": 308,
+      "recall": 0.641
+    },
+    {
+      "label": "STREET_ADDRESS",
+      "found": 87,
+      "missed": 511,
+      "recall": 0.145
+    },
+    {
+      "label": "GPE",
+      "found": 185,
+      "missed": 226,
+      "recall": 0.45
+    },
+    {
+      "label": "ORGANIZATION",
+      "found": 123,
+      "missed": 127,
+      "recall": 0.492
+    },
+    {
+      "label": "CREDIT_CARD",
+      "found": 105,
+      "missed": 31,
+      "recall": 0.772
+    },
+    {
+      "label": "DATE_TIME",
+      "found": 119,
+      "missed": 0,
+      "recall": 1.0
+    },
+    {
+      "label": "PHONE_NUMBER",
+      "found": 54,
+      "missed": 38,
+      "recall": 0.587
+    },
+    {
+      "label": "NRP",
+      "found": 36,
+      "missed": 19,
+      "recall": 0.655
+    },
+    {
+      "label": "EMAIL_ADDRESS",
+      "found": 49,
+      "missed": 0,
+      "recall": 1.0
+    },
+    {
+      "label": "DOMAIN_NAME",
+      "found": 37,
+      "missed": 0,
+      "recall": 1.0
+    },
+    {
+      "label": "IBAN_CODE",
+      "found": 21,
+      "missed": 0,
+      "recall": 1.0
+    },
+    {
+      "label": "US_SSN",
+      "found": 16,
+      "missed": 0,
+      "recall": 1.0
+    },
+    {
+      "label": "IP_ADDRESS",
+      "found": 14,
+      "missed": 0,
+      "recall": 1.0
+    },
+    {
+      "label": "US_DRIVER_LICENSE",
+      "found": 4,
+      "missed": 1,
+      "recall": 0.8
+    }
+  ],
+  "precision_by_presidio_label": [
+    {
+      "label": "DATE_TIME",
+      "hit": 123,
+      "spurious": 666,
+      "precision": 0.156
+    },
+    {
+      "label": "PERSON",
+      "hit": 546,
+      "spurious": 237,
+      "precision": 0.697
+    },
+    {
+      "label": "ORGANIZATION",
+      "hit": 121,
+      "spurious": 418,
+      "precision": 0.224
+    },
+    {
+      "label": "LOCATION",
+      "hit": 292,
+      "spurious": 75,
+      "precision": 0.796
+    },
+    {
+      "label": "US_BANK_NUMBER",
+      "hit": 0,
+      "spurious": 130,
+      "precision": 0.0
+    },
+    {
+      "label": "US_DRIVER_LICENSE",
+      "hit": 4,
+      "spurious": 117,
+      "precision": 0.033
+    },
+    {
+      "label": "CREDIT_CARD",
+      "hit": 105,
+      "spurious": 0,
+      "precision": 1.0
+    },
+    {
+      "label": "URL",
+      "hit": 37,
+      "spurious": 49,
+      "precision": 0.43
+    },
+    {
+      "label": "PHONE_NUMBER",
+      "hit": 54,
+      "spurious": 20,
+      "precision": 0.73
+    },
+    {
+      "label": "NRP",
+      "hit": 36,
+      "spurious": 21,
+      "precision": 0.632
+    },
+    {
+      "label": "EMAIL_ADDRESS",
+      "hit": 49,
+      "spurious": 0,
+      "precision": 1.0
+    },
+    {
+      "label": "IBAN_CODE",
+      "hit": 21,
+      "spurious": 0,
+      "precision": 1.0
+    },
+    {
+      "label": "US_SSN",
+      "hit": 16,
+      "spurious": 0,
+      "precision": 1.0
+    },
+    {
+      "label": "IP_ADDRESS",
+      "hit": 14,
+      "spurious": 0,
+      "precision": 1.0
+    }
+  ],
+  "overall": {
+    "recall": 0.526,
+    "precision": 0.45,
+    "found": 1399,
+    "missed": 1261,
+    "hit": 1418,
+    "spurious": 1733
+  },
+  "unreachable_ground_truth": {
+    "AGE": 74,
+    "ZIP_CODE": 37,
+    "TITLE": 92
+  }
+}

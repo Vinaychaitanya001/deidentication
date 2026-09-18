@@ -1,0 +1,4 @@
+# Vendored from microsoft/presidio (MIT License). Source: https://github.com/microsoft/presidio/blob/main/presidio-analyzer/presidio_analyzer/conf/default_analyzer.yaml
+supported_languages:
+  - en
+default_score_threshold: 0
