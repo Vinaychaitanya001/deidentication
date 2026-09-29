@@ -1,0 +1,4674 @@
+[
+ {
+  "doc_id": "test-000",
+  "note_type": "discharge",
+  "text": "DISCHARGE SUMMARY - Valley View Hospital\nPt Name: Lin Sato   Medical Record Number: 46-672-357\nDate of Birth: 28-Jan-1989   Admission Date: 2024-02-24   Account Number: 341026083365\nAttending Physician: Dr. Karen Moore\n\nHistory of present illness: Lin Sato is a 35 y/o woman with a history of Hodgkin lymphoma and hyperlipidemia who reports left leg swelling for the past 3 days.\nCourse: She was started on IV antibiotics on 2024-02-25 and a Foley catheter was placed. Hospital day 4 she was ambulating.\nOn arrival blood pressure 114/82 mmHg, pulse 108, respiratory rate 12, temperature 37.1 C, O2 sat 98%.\nResults: sodium 139, potassium 4.9, creatinine 1.4, glucose 254, hemoglobin 8.4.\n\nMedications:\n- lisinopril 10 mg by mouth once daily\n- metoprolol 25 mg by mouth twice daily\n- apixaban 5 mg by mouth twice daily\n- acetaminophen 650 mg every 6 hours as needed\n- take 1/2 tablet of warfarin daily\n\nSocial history: works at Bluestone Construction as a bus driver. Lives at 1688 Harbor Road, Green Bay, WI 54301.\n\nPlan: return visit with Jessica Hernandez, NP in 2 weeks, on 15-Mar-2024. Questions: (920) 555-0124.\n\nDictated by: Jessica Hernandez, PA-C   Date: 03-Mar-2024 11:30\nCosigned: Karen Moore, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 40,
+    "text": "Valley View Hospital",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 50,
+    "end": 58,
+    "text": "Lin Sato",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 84,
+    "end": 94,
+    "text": "46-672-357",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 110,
+    "end": 121,
+    "text": "28-Jan-1989",
+    "type": "DATE"
+   },
+   {
+    "start": 140,
+    "end": 150,
+    "text": "2024-02-24",
+    "type": "DATE"
+   },
+   {
+    "start": 169,
+    "end": 181,
+    "text": "341026083365",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 207,
+    "end": 218,
+    "text": "Karen Moore",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 248,
+    "end": 256,
+    "text": "Lin Sato",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 262,
+    "end": 264,
+    "text": "35",
+    "type": "AGE"
+   },
+   {
+    "start": 425,
+    "end": 435,
+    "text": "2024-02-25",
+    "type": "DATE"
+   },
+   {
+    "start": 927,
+    "end": 949,
+    "text": "Bluestone Construction",
+    "type": "ORGANIZATION"
+   },
+   {
+    "start": 955,
+    "end": 965,
+    "text": "bus driver",
+    "type": "PROFESSION"
+   },
+   {
+    "start": 976,
+    "end": 992,
+    "text": "1688 Harbor Road",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 994,
+    "end": 1003,
+    "text": "Green Bay",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 1005,
+    "end": 1007,
+    "text": "WI",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 1008,
+    "end": 1013,
+    "text": "54301",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 1040,
+    "end": 1057,
+    "text": "Jessica Hernandez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1077,
+    "end": 1088,
+    "text": "15-Mar-2024",
+    "type": "DATE"
+   },
+   {
+    "start": 1101,
+    "end": 1115,
+    "text": "(920) 555-0124",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 1131,
+    "end": 1148,
+    "text": "Jessica Hernandez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1163,
+    "end": 1174,
+    "text": "03-Mar-2024",
+    "type": "DATE"
+   },
+   {
+    "start": 1191,
+    "end": 1202,
+    "text": "Karen Moore",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 293,
+    "end": 309,
+    "text": "Hodgkin lymphoma",
+    "kind": "eponym"
+   },
+   {
+    "start": 359,
+    "end": 378,
+    "text": "for the past 3 days",
+    "kind": "duration"
+   },
+   {
+    "start": 442,
+    "end": 456,
+    "text": "Foley catheter",
+    "kind": "eponym"
+   },
+   {
+    "start": 482,
+    "end": 483,
+    "text": "4",
+    "kind": "duration"
+   },
+   {
+    "start": 530,
+    "end": 536,
+    "text": "114/82",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 549,
+    "end": 552,
+    "text": "108",
+    "kind": "measurement"
+   },
+   {
+    "start": 571,
+    "end": 573,
+    "text": "12",
+    "kind": "measurement"
+   },
+   {
+    "start": 587,
+    "end": 591,
+    "text": "37.1",
+    "kind": "measurement"
+   },
+   {
+    "start": 602,
+    "end": 605,
+    "text": "98%",
+    "kind": "measurement"
+   },
+   {
+    "start": 623,
+    "end": 626,
+    "text": "139",
+    "kind": "measurement"
+   },
+   {
+    "start": 638,
+    "end": 641,
+    "text": "4.9",
+    "kind": "measurement"
+   },
+   {
+    "start": 654,
+    "end": 657,
+    "text": "1.4",
+    "kind": "measurement"
+   },
+   {
+    "start": 667,
+    "end": 670,
+    "text": "254",
+    "kind": "measurement"
+   },
+   {
+    "start": 683,
+    "end": 686,
+    "text": "8.4",
+    "kind": "measurement"
+   },
+   {
+    "start": 715,
+    "end": 720,
+    "text": "10 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 730,
+    "end": 740,
+    "text": "once daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 754,
+    "end": 759,
+    "text": "25 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 769,
+    "end": 780,
+    "text": "twice daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 792,
+    "end": 796,
+    "text": "5 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 806,
+    "end": 817,
+    "text": "twice daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 834,
+    "end": 840,
+    "text": "650 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 841,
+    "end": 854,
+    "text": "every 6 hours",
+    "kind": "frequency"
+   },
+   {
+    "start": 872,
+    "end": 875,
+    "text": "1/2",
+    "kind": "fraction_dose"
+   },
+   {
+    "start": 1065,
+    "end": 1072,
+    "text": "2 weeks",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 1175,
+    "end": 1180,
+    "text": "11:30"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-001",
+  "note_type": "progress",
+  "text": "SOAP NOTE\nPatient: Sato, Padma   Unit No: 84-652-647\nVisit date: 08/11/2024   Seen by: Dr. Shah\n\nSubjective: 79F with atrial fibrillation, feels better today. Wife Ifeanyi at bedside.\nOn arrival blood pressure 108/78 mmHg, pulse 86, respiratory rate 15, temperature 36.5 C, O2 sat 99%.\nNeuro: motor 4+/5 left upper extremity; DTRs 1+/4. Reports pain 6/10; a 3/6 systolic murmur is heard. Visual acuity 20/40 OU.\nA/P: chronic kidney disease, continue current regimen. Recheck in 3 months.\n\nDictated by: William Wang, PA-C   Date: 2024-08-15 14:07\nCosigned: Sakura Shah, MD\n",
+  "phi": [
+   {
+    "start": 19,
+    "end": 30,
+    "text": "Sato, Padma",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 42,
+    "end": 52,
+    "text": "84-652-647",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 65,
+    "end": 75,
+    "text": "08/11/2024",
+    "type": "DATE"
+   },
+   {
+    "start": 91,
+    "end": 95,
+    "text": "Shah",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 109,
+    "end": 111,
+    "text": "79",
+    "type": "AGE"
+   },
+   {
+    "start": 164,
+    "end": 171,
+    "text": "Ifeanyi",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 502,
+    "end": 514,
+    "text": "William Wang",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 529,
+    "end": 539,
+    "text": "2024-08-15",
+    "type": "DATE"
+   },
+   {
+    "start": 556,
+    "end": 567,
+    "text": "Sakura Shah",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 210,
+    "end": 216,
+    "text": "108/78",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 229,
+    "end": 231,
+    "text": "86",
+    "kind": "measurement"
+   },
+   {
+    "start": 250,
+    "end": 252,
+    "text": "15",
+    "kind": "measurement"
+   },
+   {
+    "start": 266,
+    "end": 270,
+    "text": "36.5",
+    "kind": "measurement"
+   },
+   {
+    "start": 281,
+    "end": 284,
+    "text": "99%",
+    "kind": "measurement"
+   },
+   {
+    "start": 299,
+    "end": 303,
+    "text": "4+/5",
+    "kind": "scale"
+   },
+   {
+    "start": 331,
+    "end": 335,
+    "text": "1+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 350,
+    "end": 354,
+    "text": "6/10",
+    "kind": "scale"
+   },
+   {
+    "start": 358,
+    "end": 361,
+    "text": "3/6",
+    "kind": "scale"
+   },
+   {
+    "start": 402,
+    "end": 407,
+    "text": "20/40",
+    "kind": "scale"
+   },
+   {
+    "start": 478,
+    "end": 486,
+    "text": "3 months",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 540,
+    "end": 545,
+    "text": "14:07"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-002",
+  "note_type": "radiology",
+  "text": "CT CHEST WITH CONTRAST\nName: Mateo Jackson   Medical Record Number: 19-479-807\nAccession No.: S26-30206   Study date: Mar 2, 2026\nReferring MD: Kofi White\n\nComparison: prior study from Jul 25, 2025 at St. Catherine's Hospital.\nFindings: 4 mm nodule in the right upper lobe, unchanged. No effusion. EF 44% on prior echo.\nImpression: stable findings. Follow-up CT in 12 months.\n\nRead by: Jian Boateng, MD  Pager 5-6951\n",
+  "phi": [
+   {
+    "start": 29,
+    "end": 42,
+    "text": "Mateo Jackson",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 68,
+    "end": 78,
+    "text": "19-479-807",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 94,
+    "end": 103,
+    "text": "S26-30206",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 118,
+    "end": 129,
+    "text": "Mar 2, 2026",
+    "type": "DATE"
+   },
+   {
+    "start": 144,
+    "end": 154,
+    "text": "Kofi White",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 185,
+    "end": 197,
+    "text": "Jul 25, 2025",
+    "type": "DATE"
+   },
+   {
+    "start": 201,
+    "end": 225,
+    "text": "St. Catherine's Hospital",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 386,
+    "end": 398,
+    "text": "Jian Boateng",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 410,
+    "end": 416,
+    "text": "5-6951",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 237,
+    "end": 241,
+    "text": "4 mm",
+    "kind": "measurement"
+   },
+   {
+    "start": 301,
+    "end": 304,
+    "text": "44%",
+    "kind": "measurement"
+   },
+   {
+    "start": 365,
+    "end": 374,
+    "text": "12 months",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-003",
+  "note_type": "prescription",
+  "text": "PRESCRIPTION\nPinecrest Health Center\n805 Medical Plaza, Peoria, IL 61602\nTel (309) 555-0178 | Fax # 309-555-0151\nPt: Chowdary, Susan   Date of Birth: 12/10/1962\nInsurance ID: Z938596940\n\nRx: atorvastatin 40 mg, take 1 tablet by mouth nightly. Dispense #60, refills: 2.\nRx: prednisone 20 mg daily x5 days.\n\nPrescriber: Omar Taylor, MD   NPI: 1294792878   Date: Mar 29, 2026\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 36,
+    "text": "Pinecrest Health Center",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 37,
+    "end": 54,
+    "text": "805 Medical Plaza",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 56,
+    "end": 62,
+    "text": "Peoria",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 64,
+    "end": 66,
+    "text": "IL",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 67,
+    "end": 72,
+    "text": "61602",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 77,
+    "end": 91,
+    "text": "(309) 555-0178",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 100,
+    "end": 112,
+    "text": "309-555-0151",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 117,
+    "end": 132,
+    "text": "Chowdary, Susan",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 150,
+    "end": 160,
+    "text": "12/10/1962",
+    "type": "DATE"
+   },
+   {
+    "start": 175,
+    "end": 185,
+    "text": "Z938596940",
+    "type": "ID.HEALTHPLAN"
+   },
+   {
+    "start": 318,
+    "end": 329,
+    "text": "Omar Taylor",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 341,
+    "end": 351,
+    "text": "1294792878",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 360,
+    "end": 372,
+    "text": "Mar 29, 2026",
+    "type": "DATE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 204,
+    "end": 209,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 234,
+    "end": 241,
+    "text": "nightly",
+    "kind": "frequency"
+   },
+   {
+    "start": 284,
+    "end": 289,
+    "text": "20 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 296,
+    "end": 303,
+    "text": "x5 days",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-004",
+  "note_type": "ed_note",
+  "text": "ED PROVIDER NOTE\nPt Name: Ifeanyi Adeyemi   Encounter #: 639355200301   DOB: 11-Jul-1992\n\nPatient is a 32 year old man from Durham presenting with left leg swelling that began 3 days ago. Glasgow coma scale 14.\nOn arrival blood pressure 176/79 mmHg, pulse 106, respiratory rate 13, temperature 36.7 C, O2 sat 97%.\nSSN on file: 121-15-8485\nEmergency contact: Valentina Adeyemi (wife) 919-555-0176\nDisposition: admitted to medicine under Dr. Rahman.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 41,
+    "text": "Ifeanyi Adeyemi",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 57,
+    "end": 69,
+    "text": "639355200301",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 77,
+    "end": 88,
+    "text": "11-Jul-1992",
+    "type": "DATE"
+   },
+   {
+    "start": 103,
+    "end": 105,
+    "text": "32",
+    "type": "AGE"
+   },
+   {
+    "start": 124,
+    "end": 130,
+    "text": "Durham",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 327,
+    "end": 338,
+    "text": "121-15-8485",
+    "type": "ID.SSN"
+   },
+   {
+    "start": 358,
+    "end": 375,
+    "text": "Valentina Adeyemi",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 383,
+    "end": 395,
+    "text": "919-555-0176",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 440,
+    "end": 446,
+    "text": "Rahman",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 176,
+    "end": 186,
+    "text": "3 days ago",
+    "kind": "duration"
+   },
+   {
+    "start": 207,
+    "end": 209,
+    "text": "14",
+    "kind": "scale"
+   },
+   {
+    "start": 237,
+    "end": 243,
+    "text": "176/79",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 256,
+    "end": 259,
+    "text": "106",
+    "kind": "measurement"
+   },
+   {
+    "start": 278,
+    "end": 280,
+    "text": "13",
+    "kind": "measurement"
+   },
+   {
+    "start": 294,
+    "end": 298,
+    "text": "36.7",
+    "kind": "measurement"
+   },
+   {
+    "start": 309,
+    "end": 312,
+    "text": "97%",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-005",
+  "note_type": "consult",
+  "text": "REFERRAL LETTER\nTo: Kenji Jackson, MD, St. Catherine's Hospital\nDate: Apr 21, 2025\n\nRe: Jian McCarthy, 45 years old, Medical Record Number 76-333-419\n\nI am referring this man with Graves disease diagnosed in 2021 (ICD-10 G20).\nOn arrival blood pressure 112/85 mmHg, pulse 69, respiratory rate 26, temperature 38.5 C, O2 sat 99%.\nNeuro: motor 4/5 left upper extremity; DTRs 1+/4. Reports pain 4/10; a 2/6 systolic murmur is heard. Visual acuity 20/25 OU.\nPlease contact my office at 315-555-0195 or fax 315-555-0189.\n\nSincerely,\nWilliam Iyer, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 33,
+    "text": "Kenji Jackson",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 39,
+    "end": 63,
+    "text": "St. Catherine's Hospital",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 70,
+    "end": 82,
+    "text": "Apr 21, 2025",
+    "type": "DATE"
+   },
+   {
+    "start": 88,
+    "end": 101,
+    "text": "Jian McCarthy",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 103,
+    "end": 105,
+    "text": "45",
+    "type": "AGE"
+   },
+   {
+    "start": 139,
+    "end": 149,
+    "text": "76-333-419",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 208,
+    "end": 212,
+    "text": "2021",
+    "type": "DATE"
+   },
+   {
+    "start": 482,
+    "end": 494,
+    "text": "315-555-0195",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 502,
+    "end": 514,
+    "text": "315-555-0189",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 528,
+    "end": 540,
+    "text": "William Iyer",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 180,
+    "end": 194,
+    "text": "Graves disease",
+    "kind": "eponym"
+   },
+   {
+    "start": 221,
+    "end": 224,
+    "text": "G20",
+    "kind": "code"
+   },
+   {
+    "start": 253,
+    "end": 259,
+    "text": "112/85",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 272,
+    "end": 274,
+    "text": "69",
+    "kind": "measurement"
+   },
+   {
+    "start": 293,
+    "end": 295,
+    "text": "26",
+    "kind": "measurement"
+   },
+   {
+    "start": 309,
+    "end": 313,
+    "text": "38.5",
+    "kind": "measurement"
+   },
+   {
+    "start": 324,
+    "end": 327,
+    "text": "99%",
+    "kind": "measurement"
+   },
+   {
+    "start": 342,
+    "end": 345,
+    "text": "4/5",
+    "kind": "scale"
+   },
+   {
+    "start": 373,
+    "end": 377,
+    "text": "1+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 392,
+    "end": 396,
+    "text": "4/10",
+    "kind": "scale"
+   },
+   {
+    "start": 400,
+    "end": 403,
+    "text": "2/6",
+    "kind": "scale"
+   },
+   {
+    "start": 444,
+    "end": 449,
+    "text": "20/25",
+    "kind": "scale"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-006",
+  "note_type": "nursing",
+  "text": "Nursing shift summary - Nov 28, 2024\nPatient Joseph Shah (MR 34-168-382)\nVitals stable, blood pressure 164/92. Babinski sign negative. Ambulated 50 feet with assistance three times. Weight 67 kg.\nCharge RN: Sarah Tran, RN  pager 5-3974\n",
+  "phi": [
+   {
+    "start": 24,
+    "end": 36,
+    "text": "Nov 28, 2024",
+    "type": "DATE"
+   },
+   {
+    "start": 45,
+    "end": 56,
+    "text": "Joseph Shah",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 61,
+    "end": 71,
+    "text": "34-168-382",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 207,
+    "end": 217,
+    "text": "Sarah Tran",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 229,
+    "end": 235,
+    "text": "5-3974",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 103,
+    "end": 109,
+    "text": "164/92",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 145,
+    "end": 152,
+    "text": "50 feet",
+    "kind": "measurement"
+   },
+   {
+    "start": 169,
+    "end": 180,
+    "text": "three times",
+    "kind": "frequency"
+   },
+   {
+    "start": 189,
+    "end": 194,
+    "text": "67 kg",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-007",
+  "note_type": "pathology",
+  "text": "PATHOLOGY\nName: Srinivas Young   Specimen #: SP-773690\nReceived: 29-May-2024   Submitting physician: Dr. Novak\n\nSpecimen: colon, biopsy. Size 1.5 cm.\nDiagnosis: tubular adenoma; no evidence of Hodgkin lymphoma. Ki-67 19%.\n\nPathologist: Sakura Ramirez, MD   Northgate Medical Center   CPT 88305\n",
+  "phi": [
+   {
+    "start": 16,
+    "end": 30,
+    "text": "Srinivas Young",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 45,
+    "end": 54,
+    "text": "SP-773690",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 65,
+    "end": 76,
+    "text": "29-May-2024",
+    "type": "DATE"
+   },
+   {
+    "start": 105,
+    "end": 110,
+    "text": "Novak",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 236,
+    "end": 250,
+    "text": "Sakura Ramirez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 257,
+    "end": 281,
+    "text": "Northgate Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 142,
+    "end": 148,
+    "text": "1.5 cm",
+    "kind": "measurement"
+   },
+   {
+    "start": 193,
+    "end": 209,
+    "text": "Hodgkin lymphoma",
+    "kind": "eponym"
+   },
+   {
+    "start": 217,
+    "end": 220,
+    "text": "19%",
+    "kind": "measurement"
+   },
+   {
+    "start": 288,
+    "end": 293,
+    "text": "88305",
+    "kind": "code"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-008",
+  "note_type": "operative",
+  "text": "OPERATIVE REPORT\nPt Name: Jackson, Zainab   Medical Record Number: 64-357-333\nProcedure date: 2025-09-04   Surgeon: Dr. Leila Walker\n\nProcedure: laparoscopic cholecystectomy. EBL 129 mL. Implant serial #: SN72302009.\nCefazolin 2 g IV given once pre-incision. She tolerated the procedure well; discharge expected POD 1.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 41,
+    "text": "Jackson, Zainab",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 67,
+    "end": 77,
+    "text": "64-357-333",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 94,
+    "end": 104,
+    "text": "2025-09-04",
+    "type": "DATE"
+   },
+   {
+    "start": 120,
+    "end": 132,
+    "text": "Leila Walker",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 205,
+    "end": 215,
+    "text": "SN72302009",
+    "type": "ID.DEVICE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 179,
+    "end": 185,
+    "text": "129 mL",
+    "kind": "measurement"
+   },
+   {
+    "start": 227,
+    "end": 230,
+    "text": "2 g",
+    "kind": "dose"
+   },
+   {
+    "start": 240,
+    "end": 244,
+    "text": "once",
+    "kind": "frequency"
+   },
+   {
+    "start": 316,
+    "end": 317,
+    "text": "1",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-009",
+  "note_type": "telephone",
+  "text": "Phone note - Feb 12, 2025\nSpoke with patient Joseph Walker (DOB Oct 25, 1944) at 330-555-0145.\nReports home BP 108/84 and dizziness x2 days. Advised to hold furosemide 40 mg and recheck in 1 week.\nHome address: 649 Orchard Court\nAkron, OH 44308\nContact number 330-555-0145\nRouted to Dr. Young; fax results to 330-555-0162.\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 25,
+    "text": "Feb 12, 2025",
+    "type": "DATE"
+   },
+   {
+    "start": 45,
+    "end": 58,
+    "text": "Joseph Walker",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 64,
+    "end": 76,
+    "text": "Oct 25, 1944",
+    "type": "DATE"
+   },
+   {
+    "start": 81,
+    "end": 93,
+    "text": "330-555-0145",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 211,
+    "end": 228,
+    "text": "649 Orchard Court",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 229,
+    "end": 234,
+    "text": "Akron",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 236,
+    "end": 238,
+    "text": "OH",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 239,
+    "end": 244,
+    "text": "44308",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 260,
+    "end": 272,
+    "text": "330-555-0145",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 287,
+    "end": 292,
+    "text": "Young",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 309,
+    "end": 321,
+    "text": "330-555-0162",
+    "type": "CONTACT.FAX"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 111,
+    "end": 117,
+    "text": "108/84",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 132,
+    "end": 139,
+    "text": "x2 days",
+    "kind": "duration"
+   },
+   {
+    "start": 168,
+    "end": 173,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 189,
+    "end": 195,
+    "text": "1 week",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-010",
+  "note_type": "discharge",
+  "text": "DISCHARGE SUMMARY - Valley View Hospital\nPt Name: Omar Shah   Medical Record Number: 53-452-848\nDate of Birth: 11-Jun-1999   Admission Date: 07/08/2025   Account Number: 947021255431\nAttending Physician: Dr. Valentina White\n\nHistory of present illness: Omar Shah is a 26 y/o man with a history of Crohn's disease and heart failure who reports chest pain for 4 days.\nCourse: He was started on IV antibiotics on 09-Jul-2025 and a Foley catheter was placed. Hospital day 3 he was ambulating.\nOn arrival blood pressure 176/60 mmHg, pulse 108, respiratory rate 12, temperature 36.7 C, O2 sat 89%.\nResults: sodium 139, potassium 3.5, creatinine 1.4, glucose 184, hemoglobin 10.1.\n\nMedications:\n- lisinopril 10 mg by mouth once daily\n- furosemide 40 mg by mouth twice daily\n- atorvastatin 40 mg by mouth at bedtime\n- acetaminophen 650 mg every 6 hours as needed\n- take 1/2 tablet of warfarin daily\n\nSocial history: works at Bluestone Construction as a bus driver. Lives at 4688 Orchard Court, Pocatello, ID 83201.\n\nPlan: return visit with Ananya Chowdary, NP in 10 days, on 2025-07-28. Questions: 208-555-0131.\n\nDictated by: Ananya Chowdary, PA-C   Date: 07/12/2025 18:31\nCosigned: Valentina White, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 40,
+    "text": "Valley View Hospital",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 50,
+    "end": 59,
+    "text": "Omar Shah",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 85,
+    "end": 95,
+    "text": "53-452-848",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 111,
+    "end": 122,
+    "text": "11-Jun-1999",
+    "type": "DATE"
+   },
+   {
+    "start": 141,
+    "end": 151,
+    "text": "07/08/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 170,
+    "end": 182,
+    "text": "947021255431",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 208,
+    "end": 223,
+    "text": "Valentina White",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 253,
+    "end": 262,
+    "text": "Omar Shah",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 268,
+    "end": 270,
+    "text": "26",
+    "type": "AGE"
+   },
+   {
+    "start": 410,
+    "end": 421,
+    "text": "09-Jul-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 917,
+    "end": 939,
+    "text": "Bluestone Construction",
+    "type": "ORGANIZATION"
+   },
+   {
+    "start": 945,
+    "end": 955,
+    "text": "bus driver",
+    "type": "PROFESSION"
+   },
+   {
+    "start": 966,
+    "end": 984,
+    "text": "4688 Orchard Court",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 986,
+    "end": 995,
+    "text": "Pocatello",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 997,
+    "end": 999,
+    "text": "ID",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 1000,
+    "end": 1005,
+    "text": "83201",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 1032,
+    "end": 1047,
+    "text": "Ananya Chowdary",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1067,
+    "end": 1077,
+    "text": "2025-07-28",
+    "type": "DATE"
+   },
+   {
+    "start": 1090,
+    "end": 1102,
+    "text": "208-555-0131",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 1118,
+    "end": 1133,
+    "text": "Ananya Chowdary",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1148,
+    "end": 1158,
+    "text": "07/12/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 1175,
+    "end": 1190,
+    "text": "Valentina White",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 297,
+    "end": 312,
+    "text": "Crohn's disease",
+    "kind": "eponym"
+   },
+   {
+    "start": 354,
+    "end": 364,
+    "text": "for 4 days",
+    "kind": "duration"
+   },
+   {
+    "start": 428,
+    "end": 442,
+    "text": "Foley catheter",
+    "kind": "eponym"
+   },
+   {
+    "start": 468,
+    "end": 469,
+    "text": "3",
+    "kind": "duration"
+   },
+   {
+    "start": 515,
+    "end": 521,
+    "text": "176/60",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 534,
+    "end": 537,
+    "text": "108",
+    "kind": "measurement"
+   },
+   {
+    "start": 556,
+    "end": 558,
+    "text": "12",
+    "kind": "measurement"
+   },
+   {
+    "start": 572,
+    "end": 576,
+    "text": "36.7",
+    "kind": "measurement"
+   },
+   {
+    "start": 587,
+    "end": 590,
+    "text": "89%",
+    "kind": "measurement"
+   },
+   {
+    "start": 608,
+    "end": 611,
+    "text": "139",
+    "kind": "measurement"
+   },
+   {
+    "start": 623,
+    "end": 626,
+    "text": "3.5",
+    "kind": "measurement"
+   },
+   {
+    "start": 639,
+    "end": 642,
+    "text": "1.4",
+    "kind": "measurement"
+   },
+   {
+    "start": 652,
+    "end": 655,
+    "text": "184",
+    "kind": "measurement"
+   },
+   {
+    "start": 668,
+    "end": 672,
+    "text": "10.1",
+    "kind": "measurement"
+   },
+   {
+    "start": 701,
+    "end": 706,
+    "text": "10 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 716,
+    "end": 726,
+    "text": "once daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 740,
+    "end": 745,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 755,
+    "end": 766,
+    "text": "twice daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 782,
+    "end": 787,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 797,
+    "end": 807,
+    "text": "at bedtime",
+    "kind": "frequency"
+   },
+   {
+    "start": 824,
+    "end": 830,
+    "text": "650 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 831,
+    "end": 844,
+    "text": "every 6 hours",
+    "kind": "frequency"
+   },
+   {
+    "start": 862,
+    "end": 865,
+    "text": "1/2",
+    "kind": "fraction_dose"
+   },
+   {
+    "start": 1055,
+    "end": 1062,
+    "text": "10 days",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 1159,
+    "end": 1164,
+    "text": "18:31"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-011",
+  "note_type": "progress",
+  "text": "SOAP NOTE\nPatient: Wang, Zainab   Unit No: 16-640-890\nVisit date: 07/18/2025   Seen by: Dr. Rahman\n\nSubjective: 40F with type 2 diabetes, feels better today. Wife Kenji at bedside.\nOn arrival blood pressure 151/85 mmHg, pulse 115, respiratory rate 24, temperature 36.8 C, O2 sat 90%.\nNeuro: motor 4/5 left upper extremity; DTRs 1+/4. Reports pain 8/10; a 2/6 systolic murmur is heard. Visual acuity 20/40 OU.\nA/P: osteoarthritis, continue current regimen. Recheck in 3 months.\n\nDictated by: Srinivas Iyer, PA-C   Date: 2025-07-22 19:29\nCosigned: Ananya Rahman, MD\n",
+  "phi": [
+   {
+    "start": 19,
+    "end": 31,
+    "text": "Wang, Zainab",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 43,
+    "end": 53,
+    "text": "16-640-890",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 66,
+    "end": 76,
+    "text": "07/18/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 92,
+    "end": 98,
+    "text": "Rahman",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 112,
+    "end": 114,
+    "text": "40",
+    "type": "AGE"
+   },
+   {
+    "start": 163,
+    "end": 168,
+    "text": "Kenji",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 491,
+    "end": 504,
+    "text": "Srinivas Iyer",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 519,
+    "end": 529,
+    "text": "2025-07-22",
+    "type": "DATE"
+   },
+   {
+    "start": 546,
+    "end": 559,
+    "text": "Ananya Rahman",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 207,
+    "end": 213,
+    "text": "151/85",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 226,
+    "end": 229,
+    "text": "115",
+    "kind": "measurement"
+   },
+   {
+    "start": 248,
+    "end": 250,
+    "text": "24",
+    "kind": "measurement"
+   },
+   {
+    "start": 264,
+    "end": 268,
+    "text": "36.8",
+    "kind": "measurement"
+   },
+   {
+    "start": 279,
+    "end": 282,
+    "text": "90%",
+    "kind": "measurement"
+   },
+   {
+    "start": 297,
+    "end": 300,
+    "text": "4/5",
+    "kind": "scale"
+   },
+   {
+    "start": 328,
+    "end": 332,
+    "text": "1+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 347,
+    "end": 351,
+    "text": "8/10",
+    "kind": "scale"
+   },
+   {
+    "start": 355,
+    "end": 358,
+    "text": "2/6",
+    "kind": "scale"
+   },
+   {
+    "start": 399,
+    "end": 404,
+    "text": "20/40",
+    "kind": "scale"
+   },
+   {
+    "start": 467,
+    "end": 475,
+    "text": "3 months",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 530,
+    "end": 535,
+    "text": "19:29"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-012",
+  "note_type": "radiology",
+  "text": "CT CHEST WITH CONTRAST\nName: Joseph Novak   Medical Record Number: 38-405-450\nAccession No.: S25-25397   Study date: 01/30/2025\nReferring MD: Thomas Hernandez\n\nComparison: prior study from 20-Sep-2023 at Brennan Memorial Hospital.\nFindings: 6 mm nodule in the right upper lobe, unchanged. No effusion. EF 52% on prior echo.\nImpression: stable findings. Follow-up CT in 6 months.\n\nRead by: Joseph Rahman, MD  Pager 3-9787\n",
+  "phi": [
+   {
+    "start": 29,
+    "end": 41,
+    "text": "Joseph Novak",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 67,
+    "end": 77,
+    "text": "38-405-450",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 93,
+    "end": 102,
+    "text": "S25-25397",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 117,
+    "end": 127,
+    "text": "01/30/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 142,
+    "end": 158,
+    "text": "Thomas Hernandez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 189,
+    "end": 200,
+    "text": "20-Sep-2023",
+    "type": "DATE"
+   },
+   {
+    "start": 204,
+    "end": 229,
+    "text": "Brennan Memorial Hospital",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 389,
+    "end": 402,
+    "text": "Joseph Rahman",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 414,
+    "end": 420,
+    "text": "3-9787",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 241,
+    "end": 245,
+    "text": "6 mm",
+    "kind": "measurement"
+   },
+   {
+    "start": 305,
+    "end": 308,
+    "text": "52%",
+    "kind": "measurement"
+   },
+   {
+    "start": 369,
+    "end": 377,
+    "text": "6 months",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-013",
+  "note_type": "prescription",
+  "text": "PRESCRIPTION\nGreen Bay Medical Center\n294 Medical Plaza, Green Bay, WI 54301\nTel 920-555-0144 | Fax # 920-555-0191\nPt: Shah, Valentina   Date of Birth: Jul 1, 1994\nInsurance ID: X784904763\n\nRx: apixaban 5 mg, take 1 tablet by mouth BID. Dispense #60, refills: 2.\nRx: prednisone 20 mg daily x5 days.\n\nPrescriber: Luis Wang, MD   NPI: 2897385110   Date: 2024-09-24\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 37,
+    "text": "Green Bay Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 38,
+    "end": 55,
+    "text": "294 Medical Plaza",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 57,
+    "end": 66,
+    "text": "Green Bay",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 68,
+    "end": 70,
+    "text": "WI",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 71,
+    "end": 76,
+    "text": "54301",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 81,
+    "end": 93,
+    "text": "920-555-0144",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 102,
+    "end": 114,
+    "text": "920-555-0191",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 119,
+    "end": 134,
+    "text": "Shah, Valentina",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 152,
+    "end": 163,
+    "text": "Jul 1, 1994",
+    "type": "DATE"
+   },
+   {
+    "start": 178,
+    "end": 188,
+    "text": "X784904763",
+    "type": "ID.HEALTHPLAN"
+   },
+   {
+    "start": 312,
+    "end": 321,
+    "text": "Luis Wang",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 333,
+    "end": 343,
+    "text": "2897385110",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 352,
+    "end": 362,
+    "text": "2024-09-24",
+    "type": "DATE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 203,
+    "end": 207,
+    "text": "5 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 232,
+    "end": 235,
+    "text": "BID",
+    "kind": "frequency"
+   },
+   {
+    "start": 278,
+    "end": 283,
+    "text": "20 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 290,
+    "end": 297,
+    "text": "x5 days",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-014",
+  "note_type": "ed_note",
+  "text": "ED PROVIDER NOTE\nPt Name: Susan White   Encounter #: 937493902362   DOB: 19-Aug-1950\n\nPatient is a 74 year old woman from Peoria presenting with left leg swelling that began 3 days ago. Glasgow coma scale 14.\nOn arrival blood pressure 153/100 mmHg, pulse 106, respiratory rate 20, temperature 36.6 C, O2 sat 97%.\nSSN on file: 446-28-7645\nEmergency contact: Jian White (son) 309-555-0133\nDisposition: admitted to medicine under Dr. Young.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 37,
+    "text": "Susan White",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 53,
+    "end": 65,
+    "text": "937493902362",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 73,
+    "end": 84,
+    "text": "19-Aug-1950",
+    "type": "DATE"
+   },
+   {
+    "start": 99,
+    "end": 101,
+    "text": "74",
+    "type": "AGE"
+   },
+   {
+    "start": 122,
+    "end": 128,
+    "text": "Peoria",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 326,
+    "end": 337,
+    "text": "446-28-7645",
+    "type": "ID.SSN"
+   },
+   {
+    "start": 357,
+    "end": 367,
+    "text": "Jian White",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 374,
+    "end": 386,
+    "text": "309-555-0133",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 431,
+    "end": 436,
+    "text": "Young",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 174,
+    "end": 184,
+    "text": "3 days ago",
+    "kind": "duration"
+   },
+   {
+    "start": 205,
+    "end": 207,
+    "text": "14",
+    "kind": "scale"
+   },
+   {
+    "start": 235,
+    "end": 242,
+    "text": "153/100",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 255,
+    "end": 258,
+    "text": "106",
+    "kind": "measurement"
+   },
+   {
+    "start": 277,
+    "end": 279,
+    "text": "20",
+    "kind": "measurement"
+   },
+   {
+    "start": 293,
+    "end": 297,
+    "text": "36.6",
+    "kind": "measurement"
+   },
+   {
+    "start": 308,
+    "end": 311,
+    "text": "97%",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-015",
+  "note_type": "consult",
+  "text": "REFERRAL LETTER\nTo: Kenji Harris, MD, Brennan Memorial Hospital\nDate: Nov 3, 2024\n\nRe: Srinivas Naidu, 66 years old, Medical Record Number 61-627-478\n\nI am referring this man with Graves disease diagnosed in 2022 (ICD-10 G20).\nOn arrival blood pressure 138/91 mmHg, pulse 93, respiratory rate 20, temperature 38.6 C, O2 sat 93%.\nNeuro: motor 4+/5 left upper extremity; DTRs 1+/4. Reports pain 5/10; a 3/6 systolic murmur is heard. Visual acuity 20/25 OU.\nPlease contact my office at (919) 555-0177 or fax 919-555-0126.\n\nSincerely,\nAnanya Jackson, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 32,
+    "text": "Kenji Harris",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 38,
+    "end": 63,
+    "text": "Brennan Memorial Hospital",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 70,
+    "end": 81,
+    "text": "Nov 3, 2024",
+    "type": "DATE"
+   },
+   {
+    "start": 87,
+    "end": 101,
+    "text": "Srinivas Naidu",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 103,
+    "end": 105,
+    "text": "66",
+    "type": "AGE"
+   },
+   {
+    "start": 139,
+    "end": 149,
+    "text": "61-627-478",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 208,
+    "end": 212,
+    "text": "2022",
+    "type": "DATE"
+   },
+   {
+    "start": 483,
+    "end": 497,
+    "text": "(919) 555-0177",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 505,
+    "end": 517,
+    "text": "919-555-0126",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 531,
+    "end": 545,
+    "text": "Ananya Jackson",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 180,
+    "end": 194,
+    "text": "Graves disease",
+    "kind": "eponym"
+   },
+   {
+    "start": 221,
+    "end": 224,
+    "text": "G20",
+    "kind": "code"
+   },
+   {
+    "start": 253,
+    "end": 259,
+    "text": "138/91",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 272,
+    "end": 274,
+    "text": "93",
+    "kind": "measurement"
+   },
+   {
+    "start": 293,
+    "end": 295,
+    "text": "20",
+    "kind": "measurement"
+   },
+   {
+    "start": 309,
+    "end": 313,
+    "text": "38.6",
+    "kind": "measurement"
+   },
+   {
+    "start": 324,
+    "end": 327,
+    "text": "93%",
+    "kind": "measurement"
+   },
+   {
+    "start": 342,
+    "end": 346,
+    "text": "4+/5",
+    "kind": "scale"
+   },
+   {
+    "start": 374,
+    "end": 378,
+    "text": "1+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 393,
+    "end": 397,
+    "text": "5/10",
+    "kind": "scale"
+   },
+   {
+    "start": 401,
+    "end": 404,
+    "text": "3/6",
+    "kind": "scale"
+   },
+   {
+    "start": 445,
+    "end": 450,
+    "text": "20/25",
+    "kind": "scale"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-016",
+  "note_type": "nursing",
+  "text": "Nursing shift summary - 06/14/2025\nPatient Daniel Boateng (MR 66-909-878)\nVitals stable, blood pressure 169/83. Babinski sign negative. Ambulated 50 feet with assistance three times. Weight 106 kg.\nCharge RN: Leila McCarthy, RN  pager 6-1019\n",
+  "phi": [
+   {
+    "start": 24,
+    "end": 34,
+    "text": "06/14/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 43,
+    "end": 57,
+    "text": "Daniel Boateng",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 62,
+    "end": 72,
+    "text": "66-909-878",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 209,
+    "end": 223,
+    "text": "Leila McCarthy",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 235,
+    "end": 241,
+    "text": "6-1019",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 104,
+    "end": 110,
+    "text": "169/83",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 146,
+    "end": 153,
+    "text": "50 feet",
+    "kind": "measurement"
+   },
+   {
+    "start": 170,
+    "end": 181,
+    "text": "three times",
+    "kind": "frequency"
+   },
+   {
+    "start": 190,
+    "end": 196,
+    "text": "106 kg",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-017",
+  "note_type": "pathology",
+  "text": "PATHOLOGY\nName: Chloe Lewis   Specimen #: SP-870090\nReceived: 2025-04-18   Submitting physician: Dr. McCarthy\n\nSpecimen: colon, biopsy. Size 1.9 cm.\nDiagnosis: tubular adenoma; no evidence of Hodgkin lymphoma. Ki-67 12%.\n\nPathologist: Chloe Chowdary, MD   Northgate Medical Center   CPT 88305\n",
+  "phi": [
+   {
+    "start": 16,
+    "end": 27,
+    "text": "Chloe Lewis",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 42,
+    "end": 51,
+    "text": "SP-870090",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 62,
+    "end": 72,
+    "text": "2025-04-18",
+    "type": "DATE"
+   },
+   {
+    "start": 101,
+    "end": 109,
+    "text": "McCarthy",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 235,
+    "end": 249,
+    "text": "Chloe Chowdary",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 256,
+    "end": 280,
+    "text": "Northgate Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 141,
+    "end": 147,
+    "text": "1.9 cm",
+    "kind": "measurement"
+   },
+   {
+    "start": 192,
+    "end": 208,
+    "text": "Hodgkin lymphoma",
+    "kind": "eponym"
+   },
+   {
+    "start": 216,
+    "end": 219,
+    "text": "12%",
+    "kind": "measurement"
+   },
+   {
+    "start": 287,
+    "end": 292,
+    "text": "88305",
+    "kind": "code"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-018",
+  "note_type": "operative",
+  "text": "OPERATIVE REPORT\nPt Name: Jackson, Padma   Medical Record Number: 43-535-289\nProcedure date: 01/06/2025   Surgeon: Dr. Barbara Lewis\n\nProcedure: laparoscopic cholecystectomy. EBL 92 mL. Implant serial #: SN79652179.\nCefazolin 2 g IV given once pre-incision. She tolerated the procedure well; discharge expected POD 1.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 40,
+    "text": "Jackson, Padma",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 66,
+    "end": 76,
+    "text": "43-535-289",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 93,
+    "end": 103,
+    "text": "01/06/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 119,
+    "end": 132,
+    "text": "Barbara Lewis",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 204,
+    "end": 214,
+    "text": "SN79652179",
+    "type": "ID.DEVICE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 179,
+    "end": 184,
+    "text": "92 mL",
+    "kind": "measurement"
+   },
+   {
+    "start": 226,
+    "end": 229,
+    "text": "2 g",
+    "kind": "dose"
+   },
+   {
+    "start": 239,
+    "end": 243,
+    "text": "once",
+    "kind": "frequency"
+   },
+   {
+    "start": 315,
+    "end": 316,
+    "text": "1",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-019",
+  "note_type": "telephone",
+  "text": "Phone note - Oct 27, 2025\nSpoke with patient Valentina Hernandez (DOB 1952-04-17) at 919-555-0143.\nReports home BP 141/73 and dizziness for 3 days. Advised to hold metformin 500 mg and recheck in 1 week.\nHome address: 1757 Hillcrest Drive\nDurham, NC 27701\nContact number 919-555-0143\nRouted to Dr. Adeyemi; fax results to 919-555-0120.\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 25,
+    "text": "Oct 27, 2025",
+    "type": "DATE"
+   },
+   {
+    "start": 45,
+    "end": 64,
+    "text": "Valentina Hernandez",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 70,
+    "end": 80,
+    "text": "1952-04-17",
+    "type": "DATE"
+   },
+   {
+    "start": 85,
+    "end": 97,
+    "text": "919-555-0143",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 218,
+    "end": 238,
+    "text": "1757 Hillcrest Drive",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 239,
+    "end": 245,
+    "text": "Durham",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 247,
+    "end": 249,
+    "text": "NC",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 250,
+    "end": 255,
+    "text": "27701",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 271,
+    "end": 283,
+    "text": "919-555-0143",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 298,
+    "end": 305,
+    "text": "Adeyemi",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 322,
+    "end": 334,
+    "text": "919-555-0120",
+    "type": "CONTACT.FAX"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 115,
+    "end": 121,
+    "text": "141/73",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 136,
+    "end": 146,
+    "text": "for 3 days",
+    "kind": "duration"
+   },
+   {
+    "start": 174,
+    "end": 180,
+    "text": "500 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 196,
+    "end": 202,
+    "text": "1 week",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-020",
+  "note_type": "discharge",
+  "text": "DISCHARGE SUMMARY - Akron Medical Center\nPt Name: Ava Park   Medical Record Number: 57-421-378\nDate of Birth: Oct 30, 1932   Admission Date: Dec 14, 2025   Account Number: 807866330896\nAttending Physician: Dr. Karen Adeyemi\n\nHistory of present illness: Ava Park is a 93 y/o woman with a history of Addison's disease and COPD who reports shortness of breath for 2 weeks.\nCourse: She was started on IV antibiotics on 15-Dec-2025 and a Foley catheter was placed. Hospital day 3 she was ambulating.\nOn arrival blood pressure 135/89 mmHg, pulse 109, respiratory rate 17, temperature 38.5 C, O2 sat 91%.\nResults: sodium 138, potassium 3.4, creatinine 0.9, glucose 213, hemoglobin 12.6.\n\nMedications:\n- lisinopril 10 mg by mouth once daily\n- atorvastatin 40 mg by mouth at bedtime\n- apixaban 5 mg by mouth twice daily\n- acetaminophen 650 mg every 6 hours as needed\n- take 1/2 tablet of warfarin daily\n\nSocial history: works at Bluestone Construction as a carpenter. Lives at 2049 Hillcrest Drive, Akron, OH 44308.\n\nPlan: return visit with Joseph Walker, NP in 10 days, on Jan 5, 2026. Questions: 330-555-0112.\n\nDictated by: Joseph Walker, PA-C   Date: Dec 23, 2025 10:47\nCosigned: Karen Adeyemi, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 40,
+    "text": "Akron Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 50,
+    "end": 58,
+    "text": "Ava Park",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 84,
+    "end": 94,
+    "text": "57-421-378",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 110,
+    "end": 122,
+    "text": "Oct 30, 1932",
+    "type": "DATE"
+   },
+   {
+    "start": 141,
+    "end": 153,
+    "text": "Dec 14, 2025",
+    "type": "DATE"
+   },
+   {
+    "start": 172,
+    "end": 184,
+    "text": "807866330896",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 210,
+    "end": 223,
+    "text": "Karen Adeyemi",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 253,
+    "end": 261,
+    "text": "Ava Park",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 267,
+    "end": 269,
+    "text": "93",
+    "type": "AGE"
+   },
+   {
+    "start": 415,
+    "end": 426,
+    "text": "15-Dec-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 920,
+    "end": 942,
+    "text": "Bluestone Construction",
+    "type": "ORGANIZATION"
+   },
+   {
+    "start": 948,
+    "end": 957,
+    "text": "carpenter",
+    "type": "PROFESSION"
+   },
+   {
+    "start": 968,
+    "end": 988,
+    "text": "2049 Hillcrest Drive",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 990,
+    "end": 995,
+    "text": "Akron",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 997,
+    "end": 999,
+    "text": "OH",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 1000,
+    "end": 1005,
+    "text": "44308",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 1032,
+    "end": 1045,
+    "text": "Joseph Walker",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1065,
+    "end": 1076,
+    "text": "Jan 5, 2026",
+    "type": "DATE"
+   },
+   {
+    "start": 1089,
+    "end": 1101,
+    "text": "330-555-0112",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 1117,
+    "end": 1130,
+    "text": "Joseph Walker",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1145,
+    "end": 1157,
+    "text": "Dec 23, 2025",
+    "type": "DATE"
+   },
+   {
+    "start": 1174,
+    "end": 1187,
+    "text": "Karen Adeyemi",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 298,
+    "end": 315,
+    "text": "Addison's disease",
+    "kind": "eponym"
+   },
+   {
+    "start": 357,
+    "end": 368,
+    "text": "for 2 weeks",
+    "kind": "duration"
+   },
+   {
+    "start": 433,
+    "end": 447,
+    "text": "Foley catheter",
+    "kind": "eponym"
+   },
+   {
+    "start": 473,
+    "end": 474,
+    "text": "3",
+    "kind": "duration"
+   },
+   {
+    "start": 521,
+    "end": 527,
+    "text": "135/89",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 540,
+    "end": 543,
+    "text": "109",
+    "kind": "measurement"
+   },
+   {
+    "start": 562,
+    "end": 564,
+    "text": "17",
+    "kind": "measurement"
+   },
+   {
+    "start": 578,
+    "end": 582,
+    "text": "38.5",
+    "kind": "measurement"
+   },
+   {
+    "start": 593,
+    "end": 596,
+    "text": "91%",
+    "kind": "measurement"
+   },
+   {
+    "start": 614,
+    "end": 617,
+    "text": "138",
+    "kind": "measurement"
+   },
+   {
+    "start": 629,
+    "end": 632,
+    "text": "3.4",
+    "kind": "measurement"
+   },
+   {
+    "start": 645,
+    "end": 648,
+    "text": "0.9",
+    "kind": "measurement"
+   },
+   {
+    "start": 658,
+    "end": 661,
+    "text": "213",
+    "kind": "measurement"
+   },
+   {
+    "start": 674,
+    "end": 678,
+    "text": "12.6",
+    "kind": "measurement"
+   },
+   {
+    "start": 707,
+    "end": 712,
+    "text": "10 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 722,
+    "end": 732,
+    "text": "once daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 748,
+    "end": 753,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 763,
+    "end": 773,
+    "text": "at bedtime",
+    "kind": "frequency"
+   },
+   {
+    "start": 785,
+    "end": 789,
+    "text": "5 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 799,
+    "end": 810,
+    "text": "twice daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 827,
+    "end": 833,
+    "text": "650 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 834,
+    "end": 847,
+    "text": "every 6 hours",
+    "kind": "frequency"
+   },
+   {
+    "start": 865,
+    "end": 868,
+    "text": "1/2",
+    "kind": "fraction_dose"
+   },
+   {
+    "start": 1053,
+    "end": 1060,
+    "text": "10 days",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 1158,
+    "end": 1163,
+    "text": "10:47"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-021",
+  "note_type": "progress",
+  "text": "SOAP NOTE\nPatient: Novak, William   Unit No: 10-715-362\nVisit date: 07-Nov-2025   Seen by: Dr. Lewis\n\nSubjective: 72M with chronic kidney disease, feels better today. Wife Lin at bedside.\nOn arrival blood pressure 114/71 mmHg, pulse 77, respiratory rate 26, temperature 38.0 C, O2 sat 97%.\nNeuro: motor 4/5 left upper extremity; DTRs 1+/4. Reports pain 3/10; a 2/6 systolic murmur is heard. Visual acuity 20/25 OU.\nA/P: COPD, continue current regimen. Recheck in 2 weeks.\n\nDictated by: Jian Hernandez, PA-C   Date: Nov 11, 2025 11:05\nCosigned: William Lewis, MD\n",
+  "phi": [
+   {
+    "start": 19,
+    "end": 33,
+    "text": "Novak, William",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 45,
+    "end": 55,
+    "text": "10-715-362",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 68,
+    "end": 79,
+    "text": "07-Nov-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 95,
+    "end": 100,
+    "text": "Lewis",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 114,
+    "end": 116,
+    "text": "72",
+    "type": "AGE"
+   },
+   {
+    "start": 172,
+    "end": 175,
+    "text": "Lin",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 486,
+    "end": 500,
+    "text": "Jian Hernandez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 515,
+    "end": 527,
+    "text": "Nov 11, 2025",
+    "type": "DATE"
+   },
+   {
+    "start": 544,
+    "end": 557,
+    "text": "William Lewis",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 214,
+    "end": 220,
+    "text": "114/71",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 233,
+    "end": 235,
+    "text": "77",
+    "kind": "measurement"
+   },
+   {
+    "start": 254,
+    "end": 256,
+    "text": "26",
+    "kind": "measurement"
+   },
+   {
+    "start": 270,
+    "end": 274,
+    "text": "38.0",
+    "kind": "measurement"
+   },
+   {
+    "start": 285,
+    "end": 288,
+    "text": "97%",
+    "kind": "measurement"
+   },
+   {
+    "start": 303,
+    "end": 306,
+    "text": "4/5",
+    "kind": "scale"
+   },
+   {
+    "start": 334,
+    "end": 338,
+    "text": "1+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 353,
+    "end": 357,
+    "text": "3/10",
+    "kind": "scale"
+   },
+   {
+    "start": 361,
+    "end": 364,
+    "text": "2/6",
+    "kind": "scale"
+   },
+   {
+    "start": 405,
+    "end": 410,
+    "text": "20/25",
+    "kind": "scale"
+   },
+   {
+    "start": 463,
+    "end": 470,
+    "text": "2 weeks",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 528,
+    "end": 533,
+    "text": "11:05"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-022",
+  "note_type": "radiology",
+  "text": "CT CHEST WITH CONTRAST\nName: Chloe Naidu   Medical Record Number: 49-792-962\nAccession No.: S24-66993   Study date: 29-Aug-2024\nReferring MD: Karen Hernandez\n\nComparison: prior study from Dec 10, 2022 at Northgate Medical Center.\nFindings: 7 mm nodule in the right upper lobe, unchanged. No effusion. EF 51% on prior echo.\nImpression: stable findings. Follow-up CT in 6 months.\n\nRead by: Luis Walker, MD  Pager 4-8087\n",
+  "phi": [
+   {
+    "start": 29,
+    "end": 40,
+    "text": "Chloe Naidu",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 66,
+    "end": 76,
+    "text": "49-792-962",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 92,
+    "end": 101,
+    "text": "S24-66993",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 116,
+    "end": 127,
+    "text": "29-Aug-2024",
+    "type": "DATE"
+   },
+   {
+    "start": 142,
+    "end": 157,
+    "text": "Karen Hernandez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 188,
+    "end": 200,
+    "text": "Dec 10, 2022",
+    "type": "DATE"
+   },
+   {
+    "start": 204,
+    "end": 228,
+    "text": "Northgate Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 388,
+    "end": 399,
+    "text": "Luis Walker",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 411,
+    "end": 417,
+    "text": "4-8087",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 240,
+    "end": 244,
+    "text": "7 mm",
+    "kind": "measurement"
+   },
+   {
+    "start": 304,
+    "end": 307,
+    "text": "51%",
+    "kind": "measurement"
+   },
+   {
+    "start": 368,
+    "end": 376,
+    "text": "6 months",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-023",
+  "note_type": "prescription",
+  "text": "PRESCRIPTION\nNorman Medical Center\n806 Medical Plaza, Norman, OK 73069\nTel (405) 555-0128 | Fax # 405-555-0134\nPt: Naidu, Karen   Date of Birth: 05-May-1992\nInsurance ID: W505559522\n\nRx: furosemide 40 mg, take 1 tablet by mouth BID. Dispense #60, refills: 2.\nRx: prednisone 20 mg daily x5 days.\n\nPrescriber: Ifeanyi Naidu, MD   NPI: 1051521163   Date: 01/25/2026\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 34,
+    "text": "Norman Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 35,
+    "end": 52,
+    "text": "806 Medical Plaza",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 54,
+    "end": 60,
+    "text": "Norman",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 62,
+    "end": 64,
+    "text": "OK",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 65,
+    "end": 70,
+    "text": "73069",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 75,
+    "end": 89,
+    "text": "(405) 555-0128",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 98,
+    "end": 110,
+    "text": "405-555-0134",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 115,
+    "end": 127,
+    "text": "Naidu, Karen",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 145,
+    "end": 156,
+    "text": "05-May-1992",
+    "type": "DATE"
+   },
+   {
+    "start": 171,
+    "end": 181,
+    "text": "W505559522",
+    "type": "ID.HEALTHPLAN"
+   },
+   {
+    "start": 308,
+    "end": 321,
+    "text": "Ifeanyi Naidu",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 333,
+    "end": 343,
+    "text": "1051521163",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 352,
+    "end": 362,
+    "text": "01/25/2026",
+    "type": "DATE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 198,
+    "end": 203,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 228,
+    "end": 231,
+    "text": "BID",
+    "kind": "frequency"
+   },
+   {
+    "start": 274,
+    "end": 279,
+    "text": "20 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 286,
+    "end": 293,
+    "text": "x5 days",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-024",
+  "note_type": "ed_note",
+  "text": "ED PROVIDER NOTE\nPt Name: Kenji Rahman   Encounter #: 758144046164   DOB: Jul 10, 1965\n\nPatient is a 58 year old man from Akron presenting with abdominal pain that began 3 days ago. Glasgow coma scale 14.\nOn arrival blood pressure 166/69 mmHg, pulse 89, respiratory rate 17, temperature 36.6 C, O2 sat 97%.\nSSN on file: 168-68-1111\nEmergency contact: Sakura Rahman (wife) 330-555-0197\nDisposition: admitted to medicine under Dr. Walker.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 38,
+    "text": "Kenji Rahman",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 54,
+    "end": 66,
+    "text": "758144046164",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 74,
+    "end": 86,
+    "text": "Jul 10, 1965",
+    "type": "DATE"
+   },
+   {
+    "start": 101,
+    "end": 103,
+    "text": "58",
+    "type": "AGE"
+   },
+   {
+    "start": 122,
+    "end": 127,
+    "text": "Akron",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 320,
+    "end": 331,
+    "text": "168-68-1111",
+    "type": "ID.SSN"
+   },
+   {
+    "start": 351,
+    "end": 364,
+    "text": "Sakura Rahman",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 372,
+    "end": 384,
+    "text": "330-555-0197",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 429,
+    "end": 435,
+    "text": "Walker",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 170,
+    "end": 180,
+    "text": "3 days ago",
+    "kind": "duration"
+   },
+   {
+    "start": 201,
+    "end": 203,
+    "text": "14",
+    "kind": "scale"
+   },
+   {
+    "start": 231,
+    "end": 237,
+    "text": "166/69",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 250,
+    "end": 252,
+    "text": "89",
+    "kind": "measurement"
+   },
+   {
+    "start": 271,
+    "end": 273,
+    "text": "17",
+    "kind": "measurement"
+   },
+   {
+    "start": 287,
+    "end": 291,
+    "text": "36.6",
+    "kind": "measurement"
+   },
+   {
+    "start": 302,
+    "end": 305,
+    "text": "97%",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-025",
+  "note_type": "consult",
+  "text": "REFERRAL LETTER\nTo: Jian Tran, MD, Brennan Memorial Hospital\nDate: 21-Dec-2025\n\nRe: Isabella Iyer, 43 years old, Medical Record Number 77-994-536\n\nI am referring this woman with Bell's palsy diagnosed in 2021 (ICD-10 C81.90).\nOn arrival blood pressure 121/63 mmHg, pulse 115, respiratory rate 22, temperature 37.9 C, O2 sat 97%.\nNeuro: motor 4+/5 left upper extremity; DTRs 1+/4. Reports pain 3/10; a 3/6 systolic murmur is heard. Visual acuity 20/40 OU.\nPlease contact my office at (208) 555-0179 or fax 208-555-0188.\n\nSincerely,\nDaniel Novak, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 29,
+    "text": "Jian Tran",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 35,
+    "end": 60,
+    "text": "Brennan Memorial Hospital",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 67,
+    "end": 78,
+    "text": "21-Dec-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 84,
+    "end": 97,
+    "text": "Isabella Iyer",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 99,
+    "end": 101,
+    "text": "43",
+    "type": "AGE"
+   },
+   {
+    "start": 135,
+    "end": 145,
+    "text": "77-994-536",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 204,
+    "end": 208,
+    "text": "2021",
+    "type": "DATE"
+   },
+   {
+    "start": 483,
+    "end": 497,
+    "text": "(208) 555-0179",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 505,
+    "end": 517,
+    "text": "208-555-0188",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 531,
+    "end": 543,
+    "text": "Daniel Novak",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 178,
+    "end": 190,
+    "text": "Bell's palsy",
+    "kind": "eponym"
+   },
+   {
+    "start": 217,
+    "end": 223,
+    "text": "C81.90",
+    "kind": "code"
+   },
+   {
+    "start": 252,
+    "end": 258,
+    "text": "121/63",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 271,
+    "end": 274,
+    "text": "115",
+    "kind": "measurement"
+   },
+   {
+    "start": 293,
+    "end": 295,
+    "text": "22",
+    "kind": "measurement"
+   },
+   {
+    "start": 309,
+    "end": 313,
+    "text": "37.9",
+    "kind": "measurement"
+   },
+   {
+    "start": 324,
+    "end": 327,
+    "text": "97%",
+    "kind": "measurement"
+   },
+   {
+    "start": 342,
+    "end": 346,
+    "text": "4+/5",
+    "kind": "scale"
+   },
+   {
+    "start": 374,
+    "end": 378,
+    "text": "1+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 393,
+    "end": 397,
+    "text": "3/10",
+    "kind": "scale"
+   },
+   {
+    "start": 401,
+    "end": 404,
+    "text": "3/6",
+    "kind": "scale"
+   },
+   {
+    "start": 445,
+    "end": 450,
+    "text": "20/40",
+    "kind": "scale"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-026",
+  "note_type": "nursing",
+  "text": "Nursing shift summary - 26-Feb-2026\nPatient Susan Shah (MR 67-480-525)\nVitals stable, blood pressure 126/89. Babinski sign negative. Ambulated 50 feet with assistance three times. Weight 106 kg.\nCharge RN: Luis Sanchez, RN  pager 6-4826\n",
+  "phi": [
+   {
+    "start": 24,
+    "end": 35,
+    "text": "26-Feb-2026",
+    "type": "DATE"
+   },
+   {
+    "start": 44,
+    "end": 54,
+    "text": "Susan Shah",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 59,
+    "end": 69,
+    "text": "67-480-525",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 206,
+    "end": 218,
+    "text": "Luis Sanchez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 230,
+    "end": 236,
+    "text": "6-4826",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 101,
+    "end": 107,
+    "text": "126/89",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 143,
+    "end": 150,
+    "text": "50 feet",
+    "kind": "measurement"
+   },
+   {
+    "start": 167,
+    "end": 178,
+    "text": "three times",
+    "kind": "frequency"
+   },
+   {
+    "start": 187,
+    "end": 193,
+    "text": "106 kg",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-027",
+  "note_type": "pathology",
+  "text": "PATHOLOGY\nName: Valentina Young   Specimen #: SP-627230\nReceived: Mar 26, 2026   Submitting physician: Dr. Boateng\n\nSpecimen: colon, biopsy. Size 1.3 cm.\nDiagnosis: tubular adenoma; no evidence of Hodgkin lymphoma. Ki-67 27%.\n\nPathologist: Barbara Moore, MD   Brennan Memorial Hospital   CPT 88305\n",
+  "phi": [
+   {
+    "start": 16,
+    "end": 31,
+    "text": "Valentina Young",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 46,
+    "end": 55,
+    "text": "SP-627230",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 66,
+    "end": 78,
+    "text": "Mar 26, 2026",
+    "type": "DATE"
+   },
+   {
+    "start": 107,
+    "end": 114,
+    "text": "Boateng",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 240,
+    "end": 253,
+    "text": "Barbara Moore",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 260,
+    "end": 285,
+    "text": "Brennan Memorial Hospital",
+    "type": "LOCATION.HOSPITAL"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 146,
+    "end": 152,
+    "text": "1.3 cm",
+    "kind": "measurement"
+   },
+   {
+    "start": 197,
+    "end": 213,
+    "text": "Hodgkin lymphoma",
+    "kind": "eponym"
+   },
+   {
+    "start": 221,
+    "end": 224,
+    "text": "27%",
+    "kind": "measurement"
+   },
+   {
+    "start": 292,
+    "end": 297,
+    "text": "88305",
+    "kind": "code"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-028",
+  "note_type": "operative",
+  "text": "OPERATIVE REPORT\nPt Name: McCarthy, Daniel   Medical Record Number: 65-879-379\nProcedure date: 25-Jun-2024   Surgeon: Dr. Barbara Sanchez\n\nProcedure: laparoscopic cholecystectomy. EBL 69 mL. Implant serial #: SN19616961.\nCefazolin 2 g IV given once pre-incision. He tolerated the procedure well; discharge expected POD 1.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 42,
+    "text": "McCarthy, Daniel",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 68,
+    "end": 78,
+    "text": "65-879-379",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 95,
+    "end": 106,
+    "text": "25-Jun-2024",
+    "type": "DATE"
+   },
+   {
+    "start": 122,
+    "end": 137,
+    "text": "Barbara Sanchez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 209,
+    "end": 219,
+    "text": "SN19616961",
+    "type": "ID.DEVICE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 184,
+    "end": 189,
+    "text": "69 mL",
+    "kind": "measurement"
+   },
+   {
+    "start": 231,
+    "end": 234,
+    "text": "2 g",
+    "kind": "dose"
+   },
+   {
+    "start": 244,
+    "end": 248,
+    "text": "once",
+    "kind": "frequency"
+   },
+   {
+    "start": 319,
+    "end": 320,
+    "text": "1",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-029",
+  "note_type": "telephone",
+  "text": "Phone note - 2024-07-29\nSpoke with patient Omar Sanchez (DOB 25-Apr-1998) at 315-555-0186.\nReports home BP 127/73 and dizziness x2 days. Advised to hold furosemide 40 mg and recheck in 1 week.\nHome address: 1751 Hillcrest Drive\nSyracuse, NY 13202\nContact number 315-555-0186\nRouted to Dr. Boateng; fax results to 315-555-0199.\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 23,
+    "text": "2024-07-29",
+    "type": "DATE"
+   },
+   {
+    "start": 43,
+    "end": 55,
+    "text": "Omar Sanchez",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 61,
+    "end": 72,
+    "text": "25-Apr-1998",
+    "type": "DATE"
+   },
+   {
+    "start": 77,
+    "end": 89,
+    "text": "315-555-0186",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 207,
+    "end": 227,
+    "text": "1751 Hillcrest Drive",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 228,
+    "end": 236,
+    "text": "Syracuse",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 238,
+    "end": 240,
+    "text": "NY",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 241,
+    "end": 246,
+    "text": "13202",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 262,
+    "end": 274,
+    "text": "315-555-0186",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 289,
+    "end": 296,
+    "text": "Boateng",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 313,
+    "end": 325,
+    "text": "315-555-0199",
+    "type": "CONTACT.FAX"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 107,
+    "end": 113,
+    "text": "127/73",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 128,
+    "end": 135,
+    "text": "x2 days",
+    "kind": "duration"
+   },
+   {
+    "start": 164,
+    "end": 169,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 185,
+    "end": 191,
+    "text": "1 week",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-030",
+  "note_type": "discharge",
+  "text": "DISCHARGE SUMMARY - Cleveland Clinic\nPt Name: Sakura Walker   Medical Record Number: 35-454-647\nDate of Birth: Nov 27, 1999   Admission Date: 08/10/2025   Account Number: 329863853950\nAttending Physician: Dr. Sarah Young\n\nHistory of present illness: Sakura Walker is a 25 y/o woman with a history of Hodgkin lymphoma and COPD who reports dizziness for 2 weeks.\nCourse: She was started on IV antibiotics on 08/11/2025 and a Foley catheter was placed. Hospital day 3 she was ambulating.\nOn arrival blood pressure 131/87 mmHg, pulse 92, respiratory rate 22, temperature 37.9 C, O2 sat 97%.\nResults: sodium 139, potassium 3.4, creatinine 1.3, glucose 244, hemoglobin 11.3.\n\nMedications:\n- apixaban 5 mg by mouth twice daily\n- lisinopril 10 mg by mouth once daily\n- atorvastatin 40 mg by mouth at bedtime\n- acetaminophen 650 mg every 6 hours as needed\n- take 1/2 tablet of warfarin daily\n\nSocial history: works at Pioneer Freight as a librarian. Lives at 1470 Orchard Court, Peoria, IL 61602.\n\nPlan: return visit with Valentina Wang, NP in 2 weeks, on 2025-08-29. Questions: (309) 555-0127.\n\nDictated by: Valentina Wang, PA-C   Date: 08/12/2025 15:58\nCosigned: Sarah Young, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 36,
+    "text": "Cleveland Clinic",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 46,
+    "end": 59,
+    "text": "Sakura Walker",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 85,
+    "end": 95,
+    "text": "35-454-647",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 111,
+    "end": 123,
+    "text": "Nov 27, 1999",
+    "type": "DATE"
+   },
+   {
+    "start": 142,
+    "end": 152,
+    "text": "08/10/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 171,
+    "end": 183,
+    "text": "329863853950",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 209,
+    "end": 220,
+    "text": "Sarah Young",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 250,
+    "end": 263,
+    "text": "Sakura Walker",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 269,
+    "end": 271,
+    "text": "25",
+    "type": "AGE"
+   },
+   {
+    "start": 406,
+    "end": 416,
+    "text": "08/11/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 909,
+    "end": 924,
+    "text": "Pioneer Freight",
+    "type": "ORGANIZATION"
+   },
+   {
+    "start": 930,
+    "end": 939,
+    "text": "librarian",
+    "type": "PROFESSION"
+   },
+   {
+    "start": 950,
+    "end": 968,
+    "text": "1470 Orchard Court",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 970,
+    "end": 976,
+    "text": "Peoria",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 978,
+    "end": 980,
+    "text": "IL",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 981,
+    "end": 986,
+    "text": "61602",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 1013,
+    "end": 1027,
+    "text": "Valentina Wang",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1047,
+    "end": 1057,
+    "text": "2025-08-29",
+    "type": "DATE"
+   },
+   {
+    "start": 1070,
+    "end": 1084,
+    "text": "(309) 555-0127",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 1100,
+    "end": 1114,
+    "text": "Valentina Wang",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 1129,
+    "end": 1139,
+    "text": "08/12/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 1156,
+    "end": 1167,
+    "text": "Sarah Young",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 300,
+    "end": 316,
+    "text": "Hodgkin lymphoma",
+    "kind": "eponym"
+   },
+   {
+    "start": 348,
+    "end": 359,
+    "text": "for 2 weeks",
+    "kind": "duration"
+   },
+   {
+    "start": 423,
+    "end": 437,
+    "text": "Foley catheter",
+    "kind": "eponym"
+   },
+   {
+    "start": 463,
+    "end": 464,
+    "text": "3",
+    "kind": "duration"
+   },
+   {
+    "start": 511,
+    "end": 517,
+    "text": "131/87",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 530,
+    "end": 532,
+    "text": "92",
+    "kind": "measurement"
+   },
+   {
+    "start": 551,
+    "end": 553,
+    "text": "22",
+    "kind": "measurement"
+   },
+   {
+    "start": 567,
+    "end": 571,
+    "text": "37.9",
+    "kind": "measurement"
+   },
+   {
+    "start": 582,
+    "end": 585,
+    "text": "97%",
+    "kind": "measurement"
+   },
+   {
+    "start": 603,
+    "end": 606,
+    "text": "139",
+    "kind": "measurement"
+   },
+   {
+    "start": 618,
+    "end": 621,
+    "text": "3.4",
+    "kind": "measurement"
+   },
+   {
+    "start": 634,
+    "end": 637,
+    "text": "1.3",
+    "kind": "measurement"
+   },
+   {
+    "start": 647,
+    "end": 650,
+    "text": "244",
+    "kind": "measurement"
+   },
+   {
+    "start": 663,
+    "end": 667,
+    "text": "11.3",
+    "kind": "measurement"
+   },
+   {
+    "start": 694,
+    "end": 698,
+    "text": "5 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 708,
+    "end": 719,
+    "text": "twice daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 733,
+    "end": 738,
+    "text": "10 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 748,
+    "end": 758,
+    "text": "once daily",
+    "kind": "frequency"
+   },
+   {
+    "start": 774,
+    "end": 779,
+    "text": "40 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 789,
+    "end": 799,
+    "text": "at bedtime",
+    "kind": "frequency"
+   },
+   {
+    "start": 816,
+    "end": 822,
+    "text": "650 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 823,
+    "end": 836,
+    "text": "every 6 hours",
+    "kind": "frequency"
+   },
+   {
+    "start": 854,
+    "end": 857,
+    "text": "1/2",
+    "kind": "fraction_dose"
+   },
+   {
+    "start": 1035,
+    "end": 1042,
+    "text": "2 weeks",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 1140,
+    "end": 1145,
+    "text": "15:58"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-031",
+  "note_type": "progress",
+  "text": "SOAP NOTE\nPatient: Walker, Joseph   Unit No: 61-232-223\nVisit date: 10/01/2025   Seen by: Dr. Harris\n\nSubjective: 91M with heart failure, feels better today. Wife Valentina at bedside.\nOn arrival blood pressure 151/100 mmHg, pulse 104, respiratory rate 17, temperature 36.9 C, O2 sat 99%.\nNeuro: motor 3/5 left upper extremity; DTRs 1+/4. Reports pain 3/10; a 2/6 systolic murmur is heard. Visual acuity 20/40 OU.\nA/P: atrial fibrillation, continue current regimen. Recheck in 2 weeks.\n\nDictated by: Kenji Walker, PA-C   Date: 04-Oct-2025 10:49\nCosigned: Barbara Harris, MD\n",
+  "phi": [
+   {
+    "start": 19,
+    "end": 33,
+    "text": "Walker, Joseph",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 45,
+    "end": 55,
+    "text": "61-232-223",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 68,
+    "end": 78,
+    "text": "10/01/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 94,
+    "end": 100,
+    "text": "Harris",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 114,
+    "end": 116,
+    "text": "91",
+    "type": "AGE"
+   },
+   {
+    "start": 163,
+    "end": 172,
+    "text": "Valentina",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 500,
+    "end": 512,
+    "text": "Kenji Walker",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 527,
+    "end": 538,
+    "text": "04-Oct-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 555,
+    "end": 569,
+    "text": "Barbara Harris",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 211,
+    "end": 218,
+    "text": "151/100",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 231,
+    "end": 234,
+    "text": "104",
+    "kind": "measurement"
+   },
+   {
+    "start": 253,
+    "end": 255,
+    "text": "17",
+    "kind": "measurement"
+   },
+   {
+    "start": 269,
+    "end": 273,
+    "text": "36.9",
+    "kind": "measurement"
+   },
+   {
+    "start": 284,
+    "end": 287,
+    "text": "99%",
+    "kind": "measurement"
+   },
+   {
+    "start": 302,
+    "end": 305,
+    "text": "3/5",
+    "kind": "scale"
+   },
+   {
+    "start": 333,
+    "end": 337,
+    "text": "1+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 352,
+    "end": 356,
+    "text": "3/10",
+    "kind": "scale"
+   },
+   {
+    "start": 360,
+    "end": 363,
+    "text": "2/6",
+    "kind": "scale"
+   },
+   {
+    "start": 404,
+    "end": 409,
+    "text": "20/40",
+    "kind": "scale"
+   },
+   {
+    "start": 477,
+    "end": 484,
+    "text": "2 weeks",
+    "kind": "duration"
+   }
+  ],
+  "ignore": [
+   {
+    "start": 539,
+    "end": 544,
+    "text": "10:49"
+   }
+  ]
+ },
+ {
+  "doc_id": "test-032",
+  "note_type": "radiology",
+  "text": "CT CHEST WITH CONTRAST\nName: Jessica Sato   Medical Record Number: 70-944-129\nAccession No.: S25-29969   Study date: 05/15/2025\nReferring MD: Richard Adeyemi\n\nComparison: prior study from 21-Jan-2025 at Pinecrest Health Center.\nFindings: 5 mm nodule in the right upper lobe, unchanged. No effusion. EF 49% on prior echo.\nImpression: stable findings. Follow-up CT in 6 months.\n\nRead by: Daniel Jackson, MD  Pager 7-5701\n",
+  "phi": [
+   {
+    "start": 29,
+    "end": 41,
+    "text": "Jessica Sato",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 67,
+    "end": 77,
+    "text": "70-944-129",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 93,
+    "end": 102,
+    "text": "S25-29969",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 117,
+    "end": 127,
+    "text": "05/15/2025",
+    "type": "DATE"
+   },
+   {
+    "start": 142,
+    "end": 157,
+    "text": "Richard Adeyemi",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 188,
+    "end": 199,
+    "text": "21-Jan-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 203,
+    "end": 226,
+    "text": "Pinecrest Health Center",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 386,
+    "end": 400,
+    "text": "Daniel Jackson",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 412,
+    "end": 418,
+    "text": "7-5701",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 238,
+    "end": 242,
+    "text": "5 mm",
+    "kind": "measurement"
+   },
+   {
+    "start": 302,
+    "end": 305,
+    "text": "49%",
+    "kind": "measurement"
+   },
+   {
+    "start": 366,
+    "end": 374,
+    "text": "6 months",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-033",
+  "note_type": "prescription",
+  "text": "PRESCRIPTION\nCleveland Clinic\n968 Medical Plaza, Mesa, AZ 85201\nTel (480) 555-0110 | Fax # 480-555-0147\nPt: Adeyemi, Susan   Date of Birth: 1927-11-19\nInsurance ID: Z102424823\n\nRx: apixaban 5 mg, take 1 tablet by mouth BID. Dispense #60, refills: 2.\nRx: prednisone 20 mg daily x5 days.\n\nPrescriber: Daniel Hernandez, MD   NPI: 2761830522   Date: 23-Feb-2025\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 29,
+    "text": "Cleveland Clinic",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 30,
+    "end": 47,
+    "text": "968 Medical Plaza",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 49,
+    "end": 53,
+    "text": "Mesa",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 55,
+    "end": 57,
+    "text": "AZ",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 58,
+    "end": 63,
+    "text": "85201",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 68,
+    "end": 82,
+    "text": "(480) 555-0110",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 91,
+    "end": 103,
+    "text": "480-555-0147",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 108,
+    "end": 122,
+    "text": "Adeyemi, Susan",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 140,
+    "end": 150,
+    "text": "1927-11-19",
+    "type": "DATE"
+   },
+   {
+    "start": 165,
+    "end": 175,
+    "text": "Z102424823",
+    "type": "ID.HEALTHPLAN"
+   },
+   {
+    "start": 299,
+    "end": 315,
+    "text": "Daniel Hernandez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 327,
+    "end": 337,
+    "text": "2761830522",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 346,
+    "end": 357,
+    "text": "23-Feb-2025",
+    "type": "DATE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 190,
+    "end": 194,
+    "text": "5 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 219,
+    "end": 222,
+    "text": "BID",
+    "kind": "frequency"
+   },
+   {
+    "start": 265,
+    "end": 270,
+    "text": "20 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 277,
+    "end": 284,
+    "text": "x5 days",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-034",
+  "note_type": "ed_note",
+  "text": "ED PROVIDER NOTE\nPt Name: Daniel Park   Encounter #: 210728963017   DOB: 31-Aug-1975\n\nPatient is a 49 year old man from Syracuse presenting with abdominal pain that began 3 days ago. Glasgow coma scale 14.\nOn arrival blood pressure 139/102 mmHg, pulse 90, respiratory rate 13, temperature 37.8 C, O2 sat 88%.\nSSN on file: 279-34-1562\nEmergency contact: Zainab Park (wife) 315-555-0119\nDisposition: admitted to medicine under Dr. Moore.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 37,
+    "text": "Daniel Park",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 53,
+    "end": 65,
+    "text": "210728963017",
+    "type": "ID.ACCOUNT"
+   },
+   {
+    "start": 73,
+    "end": 84,
+    "text": "31-Aug-1975",
+    "type": "DATE"
+   },
+   {
+    "start": 99,
+    "end": 101,
+    "text": "49",
+    "type": "AGE"
+   },
+   {
+    "start": 120,
+    "end": 128,
+    "text": "Syracuse",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 322,
+    "end": 333,
+    "text": "279-34-1562",
+    "type": "ID.SSN"
+   },
+   {
+    "start": 353,
+    "end": 364,
+    "text": "Zainab Park",
+    "type": "NAME.OTHER"
+   },
+   {
+    "start": 372,
+    "end": 384,
+    "text": "315-555-0119",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 429,
+    "end": 434,
+    "text": "Moore",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 171,
+    "end": 181,
+    "text": "3 days ago",
+    "kind": "duration"
+   },
+   {
+    "start": 202,
+    "end": 204,
+    "text": "14",
+    "kind": "scale"
+   },
+   {
+    "start": 232,
+    "end": 239,
+    "text": "139/102",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 252,
+    "end": 254,
+    "text": "90",
+    "kind": "measurement"
+   },
+   {
+    "start": 273,
+    "end": 275,
+    "text": "13",
+    "kind": "measurement"
+   },
+   {
+    "start": 289,
+    "end": 293,
+    "text": "37.8",
+    "kind": "measurement"
+   },
+   {
+    "start": 304,
+    "end": 307,
+    "text": "88%",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-035",
+  "note_type": "consult",
+  "text": "REFERRAL LETTER\nTo: Ethan Clark, MD, Northgate Medical Center\nDate: 22-Jan-2025\n\nRe: Padma Chowdary, 38 years old, Medical Record Number 76-556-312\n\nI am referring this woman with Crohn's disease diagnosed in 2019 (ICD-10 E05.00).\nOn arrival blood pressure 118/62 mmHg, pulse 89, respiratory rate 13, temperature 37.0 C, O2 sat 99%.\nNeuro: motor 4/5 left upper extremity; DTRs 2+/4. Reports pain 5/10; a 3/6 systolic murmur is heard. Visual acuity 20/25 OU.\nPlease contact my office at (920) 555-0151 or fax 920-555-0174.\n\nSincerely,\nJessica McCarthy, MD\n",
+  "phi": [
+   {
+    "start": 20,
+    "end": 31,
+    "text": "Ethan Clark",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 37,
+    "end": 61,
+    "text": "Northgate Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   },
+   {
+    "start": 68,
+    "end": 79,
+    "text": "22-Jan-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 85,
+    "end": 99,
+    "text": "Padma Chowdary",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 101,
+    "end": 103,
+    "text": "38",
+    "type": "AGE"
+   },
+   {
+    "start": 137,
+    "end": 147,
+    "text": "76-556-312",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 209,
+    "end": 213,
+    "text": "2019",
+    "type": "DATE"
+   },
+   {
+    "start": 486,
+    "end": 500,
+    "text": "(920) 555-0151",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 508,
+    "end": 520,
+    "text": "920-555-0174",
+    "type": "CONTACT.FAX"
+   },
+   {
+    "start": 534,
+    "end": 550,
+    "text": "Jessica McCarthy",
+    "type": "NAME.CLINICIAN"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 180,
+    "end": 195,
+    "text": "Crohn's disease",
+    "kind": "eponym"
+   },
+   {
+    "start": 222,
+    "end": 228,
+    "text": "E05.00",
+    "kind": "code"
+   },
+   {
+    "start": 257,
+    "end": 263,
+    "text": "118/62",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 276,
+    "end": 278,
+    "text": "89",
+    "kind": "measurement"
+   },
+   {
+    "start": 297,
+    "end": 299,
+    "text": "13",
+    "kind": "measurement"
+   },
+   {
+    "start": 313,
+    "end": 317,
+    "text": "37.0",
+    "kind": "measurement"
+   },
+   {
+    "start": 328,
+    "end": 331,
+    "text": "99%",
+    "kind": "measurement"
+   },
+   {
+    "start": 346,
+    "end": 349,
+    "text": "4/5",
+    "kind": "scale"
+   },
+   {
+    "start": 377,
+    "end": 381,
+    "text": "2+/4",
+    "kind": "scale"
+   },
+   {
+    "start": 396,
+    "end": 400,
+    "text": "5/10",
+    "kind": "scale"
+   },
+   {
+    "start": 404,
+    "end": 407,
+    "text": "3/6",
+    "kind": "scale"
+   },
+   {
+    "start": 448,
+    "end": 453,
+    "text": "20/25",
+    "kind": "scale"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-036",
+  "note_type": "nursing",
+  "text": "Nursing shift summary - 2024-12-26\nPatient Ananya Jackson (MR 65-350-913)\nVitals stable, blood pressure 116/86. Babinski sign negative. Ambulated 50 feet with assistance three times. Weight 59 kg.\nCharge RN: Sarah Sato, RN  pager 5-4607\n",
+  "phi": [
+   {
+    "start": 24,
+    "end": 34,
+    "text": "2024-12-26",
+    "type": "DATE"
+   },
+   {
+    "start": 43,
+    "end": 57,
+    "text": "Ananya Jackson",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 62,
+    "end": 72,
+    "text": "65-350-913",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 208,
+    "end": 218,
+    "text": "Sarah Sato",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 230,
+    "end": 236,
+    "text": "5-4607",
+    "type": "CONTACT.PHONE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 104,
+    "end": 110,
+    "text": "116/86",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 146,
+    "end": 153,
+    "text": "50 feet",
+    "kind": "measurement"
+   },
+   {
+    "start": 170,
+    "end": 181,
+    "text": "three times",
+    "kind": "frequency"
+   },
+   {
+    "start": 190,
+    "end": 195,
+    "text": "59 kg",
+    "kind": "measurement"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-037",
+  "note_type": "pathology",
+  "text": "PATHOLOGY\nName: Valentina Chowdary   Specimen #: SP-964237\nReceived: 10-Jul-2025   Submitting physician: Dr. Sanchez\n\nSpecimen: colon, biopsy. Size 0.5 cm.\nDiagnosis: tubular adenoma; no evidence of Hodgkin lymphoma. Ki-67 5%.\n\nPathologist: Karen Hernandez, MD   Pocatello Medical Center   CPT 88305\n",
+  "phi": [
+   {
+    "start": 16,
+    "end": 34,
+    "text": "Valentina Chowdary",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 49,
+    "end": 58,
+    "text": "SP-964237",
+    "type": "ID.OTHER"
+   },
+   {
+    "start": 69,
+    "end": 80,
+    "text": "10-Jul-2025",
+    "type": "DATE"
+   },
+   {
+    "start": 109,
+    "end": 116,
+    "text": "Sanchez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 241,
+    "end": 256,
+    "text": "Karen Hernandez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 263,
+    "end": 287,
+    "text": "Pocatello Medical Center",
+    "type": "LOCATION.HOSPITAL"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 148,
+    "end": 154,
+    "text": "0.5 cm",
+    "kind": "measurement"
+   },
+   {
+    "start": 199,
+    "end": 215,
+    "text": "Hodgkin lymphoma",
+    "kind": "eponym"
+   },
+   {
+    "start": 223,
+    "end": 225,
+    "text": "5%",
+    "kind": "measurement"
+   },
+   {
+    "start": 294,
+    "end": 299,
+    "text": "88305",
+    "kind": "code"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-038",
+  "note_type": "operative",
+  "text": "OPERATIVE REPORT\nPt Name: Sato, Ananya   Medical Record Number: 14-681-658\nProcedure date: 2024-10-27   Surgeon: Dr. Chloe Boateng\n\nProcedure: laparoscopic cholecystectomy. EBL 48 mL. Implant serial #: SN90696733.\nCefazolin 2 g IV given once pre-incision. She tolerated the procedure well; discharge expected POD 1.\n",
+  "phi": [
+   {
+    "start": 26,
+    "end": 38,
+    "text": "Sato, Ananya",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 64,
+    "end": 74,
+    "text": "14-681-658",
+    "type": "ID.MRN"
+   },
+   {
+    "start": 91,
+    "end": 101,
+    "text": "2024-10-27",
+    "type": "DATE"
+   },
+   {
+    "start": 117,
+    "end": 130,
+    "text": "Chloe Boateng",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 202,
+    "end": 212,
+    "text": "SN90696733",
+    "type": "ID.DEVICE"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 177,
+    "end": 182,
+    "text": "48 mL",
+    "kind": "measurement"
+   },
+   {
+    "start": 224,
+    "end": 227,
+    "text": "2 g",
+    "kind": "dose"
+   },
+   {
+    "start": 237,
+    "end": 241,
+    "text": "once",
+    "kind": "frequency"
+   },
+   {
+    "start": 313,
+    "end": 314,
+    "text": "1",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ },
+ {
+  "doc_id": "test-039",
+  "note_type": "telephone",
+  "text": "Phone note - 18-Jul-2024\nSpoke with patient Jessica Tran (DOB 1992-12-07) at (405) 555-0150.\nReports home BP 126/97 and dizziness for 3 days. Advised to hold metformin 500 mg and recheck in 1 week.\nHome address: 64 Chestnut Avenue\nNorman, OK 73069\nContact number (405) 555-0150\nRouted to Dr. Sanchez; fax results to 405-555-0114.\n",
+  "phi": [
+   {
+    "start": 13,
+    "end": 24,
+    "text": "18-Jul-2024",
+    "type": "DATE"
+   },
+   {
+    "start": 44,
+    "end": 56,
+    "text": "Jessica Tran",
+    "type": "NAME.PATIENT"
+   },
+   {
+    "start": 62,
+    "end": 72,
+    "text": "1992-12-07",
+    "type": "DATE"
+   },
+   {
+    "start": 77,
+    "end": 91,
+    "text": "(405) 555-0150",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 212,
+    "end": 230,
+    "text": "64 Chestnut Avenue",
+    "type": "LOCATION.STREET"
+   },
+   {
+    "start": 231,
+    "end": 237,
+    "text": "Norman",
+    "type": "LOCATION.CITY"
+   },
+   {
+    "start": 239,
+    "end": 241,
+    "text": "OK",
+    "type": "LOCATION.STATE"
+   },
+   {
+    "start": 242,
+    "end": 247,
+    "text": "73069",
+    "type": "LOCATION.ZIP"
+   },
+   {
+    "start": 263,
+    "end": 277,
+    "text": "(405) 555-0150",
+    "type": "CONTACT.PHONE"
+   },
+   {
+    "start": 292,
+    "end": 299,
+    "text": "Sanchez",
+    "type": "NAME.CLINICIAN"
+   },
+   {
+    "start": 316,
+    "end": 328,
+    "text": "405-555-0114",
+    "type": "CONTACT.FAX"
+   }
+  ],
+  "hard_negatives": [
+   {
+    "start": 109,
+    "end": 115,
+    "text": "126/97",
+    "kind": "blood_pressure"
+   },
+   {
+    "start": 130,
+    "end": 140,
+    "text": "for 3 days",
+    "kind": "duration"
+   },
+   {
+    "start": 168,
+    "end": 174,
+    "text": "500 mg",
+    "kind": "dose"
+   },
+   {
+    "start": 190,
+    "end": 196,
+    "text": "1 week",
+    "kind": "duration"
+   }
+  ],
+  "ignore": []
+ }
+]

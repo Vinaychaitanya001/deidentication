@@ -1,16 +1,12 @@
-# Full Presidio architecture — matches presidio-analyzer/pyproject.toml
-# (minus `click`, which is only used by Presidio's CLI).
-spacy>=3.4.4,!=3.7.0,!=3.8.14,<4.0.0
-numpy>=1.19.0,<2.6.0
-regex>=2023.0.0
-tldextract>=5.0.0
-pyyaml>=6.0.3,<7.0.0
-phonenumbers>=8.13.0
-pydantic>=2.12.5,<3.0.0
+# Pinned stack (Python 3.10-3.14; tested on 3.12.14). Presidio is a normal dependency now,
+# not a vendored copy; the old vendored files remain in git history at commit 8088a33.
+presidio-analyzer[transformers]==2.2.364
+presidio-anonymizer==2.2.364
+spacy==3.8.16
+transformers==4.57.6
+torch==2.14.0
+spacy-huggingface-pipelines==0.0.4
+pytest==9.1.1
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 
-# presidio-anonymizer: required by the encrypt/decrypt (AES) operators.
-cryptography>=3.4.7
-
-# A spaCy model is also required — not installable via requirements.txt:
-#   python -m spacy download en_core_web_sm    (13 MB, what we use)
-#   python -m spacy download en_core_web_lg    (560 MB, Presidio's default)
+# The clinical NER model (obi/deid_roberta_i2b2, ~1.4 GB, MIT) downloads from Hugging Face on first use.

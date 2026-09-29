@@ -1,5 +1,12 @@
 # What's copied from Presidio vs. what we wrote
 
+> **Status (29 Sep 2026):** the vendored `presidio_analyzer/` and `presidio_anonymizer/` copies
+> described below have been removed from the working tree. Presidio is now a pinned dependency
+> (`presidio-analyzer==2.2.364`, `presidio-anonymizer==2.2.364`, see `requirements.txt`); the
+> vendored files remain in git history at commit `8088a33`. The one recognizer missing from
+> 2.2.364, `UuidRecognizer`, is kept in `compat/uuid_recognizer.py`. See docs/DECISIONS.md (D3).
+> The rest of this document is the historical record of the vendored build.
+
 This directory is **not** a fork or clone of `microsoft/presidio`. Individual
 files were fetched from GitHub and placed here, each carrying a header
 comment with its exact source URL.

@@ -21,13 +21,14 @@ Two documented deviations from `presidio_analyzer/conf/default.yaml`:
 from pathlib import Path
 from typing import List, Optional
 
+import presidio_analyzer
 import yaml
 
 from presidio_analyzer import AnalyzerEngine, RecognizerRegistry
 from presidio_analyzer.nlp_engine import NlpEngineProvider
 from presidio_anonymizer import AnonymizerEngine
 
-DEFAULT_CONF = Path(__file__).parent / "presidio_analyzer" / "conf" / "default.yaml"
+DEFAULT_CONF = Path(presidio_analyzer.__file__).parent / "conf" / "default.yaml"
 
 
 def build_nlp_configuration(

@@ -37,9 +37,13 @@ from presidio_analyzer.predefined_recognizers import (
     MacAddressRecognizer,
     PhoneRecognizer,
     UrlRecognizer,
-    UuidRecognizer,
 )
 from presidio_anonymizer import OperatorConfig
+
+try:
+    from presidio_analyzer.predefined_recognizers import UuidRecognizer
+except ImportError:  # not in the pinned presidio-analyzer 2.2.364 release
+    from compat.uuid_recognizer import UuidRecognizer
 from presidio_anonymizer.core import TextReplaceBuilder
 from presidio_anonymizer.operators import Hash, Mask, Redact, Replace
 

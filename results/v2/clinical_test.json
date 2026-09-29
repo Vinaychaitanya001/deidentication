@@ -1,0 +1,2105 @@
+{
+ "dataset": "clinical_test",
+ "documents": 40,
+ "gold_spans": 396,
+ "results": {
+  "B0": {
+   "entity_strict": {
+    "precision": 0.8640776699029126,
+    "recall": 0.22474747474747475,
+    "f1": 0.3567134268537074,
+    "f2": 0.2637818612922347
+   },
+   "entity_exact": {
+    "precision": 0.8932038834951457,
+    "recall": 0.23232323232323232,
+    "f1": 0.3687374749498998,
+    "f2": 0.2726733847065797
+   },
+   "entity_partial": {
+    "precision": 0.9029126213592233,
+    "recall": 0.23484848484848486,
+    "f1": 0.37274549098196397,
+    "f2": 0.27563722584469474
+   },
+   "entity_partial_typed": {
+    "precision": 0.8640776699029126,
+    "recall": 0.22474747474747475,
+    "f1": 0.3567134268537074,
+    "f2": 0.2637818612922347
+   },
+   "token_binary": {
+    "precision": 0.931740614334471,
+    "recall": 0.3170731707317073,
+    "f1": 0.4731369150779896,
+    "f2": 0.3652662563553653
+   },
+   "token_typed": {
+    "precision": 0.9112627986348123,
+    "recall": 0.31010452961672474,
+    "f1": 0.46273830155979206,
+    "f2": 0.35723842654535726
+   },
+   "char": {
+    "recall": 0.22090885211452588,
+    "leak_rate": 0.7790911478854741,
+    "precision": 0.9611428571428572
+   },
+   "doc_zero_leak_rate": 0.0,
+   "counts": {
+    "docs": 40,
+    "partial_gold": 396,
+    "partial_pred": 103,
+    "char_gold": 3807,
+    "zero_leak": 0
+   },
+   "ci95": {
+    "strict_f1": [
+     0.31119544592030357,
+     0.3982494529540481
+    ],
+    "strict_f2": [
+     0.225,
+     0.29850746268656714
+    ],
+    "exact_f2": [
+     0.23437500000000003,
+     0.3080872913992298
+    ],
+    "partial_recall": [
+     0.20052083333333334,
+     0.2671957671957672
+    ],
+    "partial_precision": [
+     0.8469387755102041,
+     0.9555555555555556
+    ],
+    "partial_f2": [
+     0.23692307692307693,
+     0.31143827859569645
+    ],
+    "token_f2": [
+     0.3135498320268757,
+     0.4112337011033099
+    ],
+    "token_typed_f2": [
+     0.3044719314938154,
+     0.40374909877433307
+    ],
+    "char_leak_rate": [
+     0.7432470064049012,
+     0.813023507160227
+    ],
+    "doc_zero_leak_rate": [
+     0.0,
+     0.0
+    ]
+   },
+   "recall_by_gold_category": {
+    "NAME": {
+     "support": 124,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    },
+    "DATE": {
+     "support": 76,
+     "partial_recall": 0.6973684210526315,
+     "strict_recall": 0.6973684210526315,
+     "char_recall": 0.7099841521394612
+    },
+    "LOCATION": {
+     "support": 72,
+     "partial_recall": 0.013888888888888888,
+     "strict_recall": 0.0,
+     "char_recall": 0.005095541401273885
+    },
+    "ID": {
+     "support": 56,
+     "partial_recall": 0.05357142857142857,
+     "strict_recall": 0.0,
+     "char_recall": 0.05708661417322835
+    },
+    "CONTACT": {
+     "support": 44,
+     "partial_recall": 0.8181818181818182,
+     "strict_recall": 0.8181818181818182,
+     "char_recall": 0.9
+    },
+    "AGE": {
+     "support": 16,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    },
+    "ORGANIZATION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    },
+    "PROFESSION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    }
+   },
+   "precision_by_pred_category": {
+    "DATE": {
+     "predicted": 61,
+     "partial_precision": 0.8688524590163934
+    },
+    "CONTACT": {
+     "predicted": 42,
+     "partial_precision": 0.9523809523809523
+    }
+   },
+   "name_subtypes": {
+    "compared": 0,
+    "subtype_correct": 0,
+    "accuracy": null
+   },
+   "hard_negatives": {
+    "total": 308,
+    "redacted": 10,
+    "rate": 0.032467532467532464,
+    "by_kind": {
+     "blood_pressure": {
+      "total": 24,
+      "redacted": 2,
+      "rate": 0.08333333333333333
+     },
+     "code": {
+      "total": 8,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "dose": {
+      "total": 32,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "duration": {
+      "total": 40,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "eponym": {
+      "total": 16,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "fraction_dose": {
+      "total": 4,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "frequency": {
+      "total": 28,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "measurement": {
+      "total": 112,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "scale": {
+      "total": 44,
+      "redacted": 8,
+      "rate": 0.18181818181818182
+     }
+    }
+   },
+   "system": "B0 regex-only",
+   "seconds": 0.1
+  },
+  "B1": {
+   "entity_strict": {
+    "precision": 0.48997772828507796,
+    "recall": 0.5555555555555556,
+    "f1": 0.5207100591715976,
+    "f2": 0.5410723069355632
+   },
+   "entity_exact": {
+    "precision": 0.532293986636971,
+    "recall": 0.6035353535353535,
+    "f1": 0.5656804733727809,
+    "f2": 0.58780127889818
+   },
+   "entity_partial": {
+    "precision": 0.6614699331848553,
+    "recall": 0.7297979797979798,
+    "f1": 0.6939560906000249,
+    "f2": 0.7150259326334659
+   },
+   "entity_partial_typed": {
+    "precision": 0.5634743875278396,
+    "recall": 0.6388888888888888,
+    "f1": 0.5988165680473373,
+    "f2": 0.6222331529758977
+   },
+   "token_binary": {
+    "precision": 0.7117852975495916,
+    "recall": 0.7084785133565621,
+    "f1": 0.710128055878929,
+    "f2": 0.7091374099046733
+   },
+   "token_typed": {
+    "precision": 0.6417736289381564,
+    "recall": 0.6387921022067363,
+    "f1": 0.6402793946449359,
+    "f2": 0.6393861892583119
+   },
+   "char": {
+    "recall": 0.7065931179406356,
+    "leak_rate": 0.2934068820593644,
+    "precision": 0.7631205673758865
+   },
+   "doc_zero_leak_rate": 0.025,
+   "counts": {
+    "docs": 40,
+    "partial_gold": 396,
+    "partial_pred": 449,
+    "char_gold": 3807,
+    "zero_leak": 1
+   },
+   "ci95": {
+    "strict_f1": [
+     0.4942263279445728,
+     0.5493133583021224
+    ],
+    "strict_f2": [
+     0.5128205128205129,
+     0.5706039076376554
+    ],
+    "exact_f2": [
+     0.5565693430656935,
+     0.6182212581344902
+    ],
+    "partial_recall": [
+     0.6937354988399071,
+     0.76775956284153
+    ],
+    "partial_precision": [
+     0.6287015945330297,
+     0.697841726618705
+    ],
+    "partial_f2": [
+     0.6841347219144694,
+     0.7469560199722224
+    ],
+    "token_f2": [
+     0.6763953983809118,
+     0.7401276897611728
+    ],
+    "token_typed_f2": [
+     0.6055068226120858,
+     0.6718821905200184
+    ],
+    "char_leak_rate": [
+     0.24837007140639555,
+     0.33848580441640375
+    ],
+    "doc_zero_leak_rate": [
+     0.0,
+     0.075
+    ]
+   },
+   "recall_by_gold_category": {
+    "NAME": {
+     "support": 124,
+     "partial_recall": 0.9354838709677419,
+     "strict_recall": 0.8064516129032258,
+     "char_recall": 0.8863976083707026
+    },
+    "DATE": {
+     "support": 76,
+     "partial_recall": 0.9473684210526315,
+     "strict_recall": 0.8421052631578947,
+     "char_recall": 0.919175911251981
+    },
+    "LOCATION": {
+     "support": 72,
+     "partial_recall": 0.3194444444444444,
+     "strict_recall": 0.125,
+     "char_recall": 0.3146496815286624
+    },
+    "ID": {
+     "support": 56,
+     "partial_recall": 0.5178571428571429,
+     "strict_recall": 0.21428571428571427,
+     "char_recall": 0.5255905511811023
+    },
+    "CONTACT": {
+     "support": 44,
+     "partial_recall": 0.9090909090909091,
+     "strict_recall": 0.7954545454545454,
+     "char_recall": 0.95
+    },
+    "AGE": {
+     "support": 16,
+     "partial_recall": 0.5,
+     "strict_recall": 0.0,
+     "char_recall": 0.5
+    },
+    "ORGANIZATION": {
+     "support": 4,
+     "partial_recall": 0.25,
+     "strict_recall": 0.0,
+     "char_recall": 0.18181818181818182
+    },
+    "PROFESSION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    }
+   },
+   "precision_by_pred_category": {
+    "NAME": {
+     "predicted": 175,
+     "partial_precision": 0.6857142857142857
+    },
+    "DATE": {
+     "predicted": 158,
+     "partial_precision": 0.6329113924050633
+    },
+    "LOCATION": {
+     "predicted": 54,
+     "partial_precision": 0.3888888888888889
+    },
+    "CONTACT": {
+     "predicted": 36,
+     "partial_precision": 1.0
+    },
+    "ID": {
+     "predicted": 26,
+     "partial_precision": 0.7692307692307693
+    }
+   },
+   "name_subtypes": {
+    "compared": 0,
+    "subtype_correct": 0,
+    "accuracy": null
+   },
+   "hard_negatives": {
+    "total": 308,
+    "redacted": 79,
+    "rate": 0.2564935064935065,
+    "by_kind": {
+     "blood_pressure": {
+      "total": 24,
+      "redacted": 3,
+      "rate": 0.125
+     },
+     "code": {
+      "total": 8,
+      "redacted": 4,
+      "rate": 0.5
+     },
+     "dose": {
+      "total": 32,
+      "redacted": 4,
+      "rate": 0.125
+     },
+     "duration": {
+      "total": 40,
+      "redacted": 32,
+      "rate": 0.8
+     },
+     "eponym": {
+      "total": 16,
+      "redacted": 11,
+      "rate": 0.6875
+     },
+     "fraction_dose": {
+      "total": 4,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "frequency": {
+      "total": 28,
+      "redacted": 10,
+      "rate": 0.35714285714285715
+     },
+     "measurement": {
+      "total": 112,
+      "redacted": 4,
+      "rate": 0.03571428571428571
+     },
+     "scale": {
+      "total": 44,
+      "redacted": 11,
+      "rate": 0.25
+     }
+    }
+   },
+   "system": "B1 Presidio + spaCy (current full)",
+   "seconds": 0.5
+  },
+  "B2": {
+   "entity_strict": {
+    "precision": 0.6403162055335968,
+    "recall": 0.8181818181818182,
+    "f1": 0.7184035476718403,
+    "f2": 0.7751196172248804
+   },
+   "entity_exact": {
+    "precision": 0.6462450592885376,
+    "recall": 0.8257575757575758,
+    "f1": 0.7250554323725057,
+    "f2": 0.7822966507177034
+   },
+   "entity_partial": {
+    "precision": 0.9090909090909091,
+    "recall": 0.98989898989899,
+    "f1": 0.9477756286266925,
+    "f2": 0.9726081778483524
+   },
+   "entity_partial_typed": {
+    "precision": 0.8616600790513834,
+    "recall": 0.9823232323232324,
+    "f1": 0.9180437900890417,
+    "f2": 0.9555607138591348
+   },
+   "token_binary": {
+    "precision": 0.9323882224645583,
+    "recall": 0.9930313588850174,
+    "f1": 0.9617547806524184,
+    "f2": 0.9802797523503783
+   },
+   "token_typed": {
+    "precision": 0.8964013086150491,
+    "recall": 0.9547038327526133,
+    "f1": 0.9246344206974129,
+    "f2": 0.9424443934877323
+   },
+   "char": {
+    "recall": 0.9905437352245863,
+    "leak_rate": 0.009456264775413725,
+    "precision": 0.9525132609244759
+   },
+   "doc_zero_leak_rate": 0.9,
+   "counts": {
+    "docs": 40,
+    "partial_gold": 396,
+    "partial_pred": 506,
+    "char_gold": 3807,
+    "zero_leak": 36
+   },
+   "ci95": {
+    "strict_f1": [
+     0.6831566548881036,
+     0.7538280329799765
+    ],
+    "strict_f2": [
+     0.7472691161866931,
+     0.804248861911988
+    ],
+    "exact_f2": [
+     0.7549557148882329,
+     0.8094117647058823
+    ],
+    "partial_recall": [
+     0.9821428571428571,
+     0.9973190348525469
+    ],
+    "partial_precision": [
+     0.885480572597137,
+     0.9306569343065694
+    ],
+    "partial_f2": [
+     0.9670852109979066,
+     0.9794324394688884
+    ],
+    "token_f2": [
+     0.9747485555317781,
+     0.9862946647087618
+    ],
+    "token_typed_f2": [
+     0.9248737373737375,
+     0.9596325839980663
+    ],
+    "char_leak_rate": [
+     0.0024979184013321776,
+     0.016479743648432188
+    ],
+    "doc_zero_leak_rate": [
+     0.8,
+     0.975
+    ]
+   },
+   "recall_by_gold_category": {
+    "NAME": {
+     "support": 124,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "DATE": {
+     "support": 76,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "LOCATION": {
+     "support": 72,
+     "partial_recall": 1.0,
+     "strict_recall": 0.5833333333333334,
+     "char_recall": 1.0
+    },
+    "ID": {
+     "support": 56,
+     "partial_recall": 1.0,
+     "strict_recall": 0.5178571428571429,
+     "char_recall": 1.0
+    },
+    "CONTACT": {
+     "support": 44,
+     "partial_recall": 1.0,
+     "strict_recall": 0.8181818181818182,
+     "char_recall": 1.0
+    },
+    "AGE": {
+     "support": 16,
+     "partial_recall": 1.0,
+     "strict_recall": 0.875,
+     "char_recall": 1.0
+    },
+    "ORGANIZATION": {
+     "support": 4,
+     "partial_recall": 1.0,
+     "strict_recall": 0.75,
+     "char_recall": 1.0
+    },
+    "PROFESSION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    }
+   },
+   "precision_by_pred_category": {
+    "NAME": {
+     "predicted": 127,
+     "partial_precision": 0.984251968503937
+    },
+    "ID": {
+     "predicted": 124,
+     "partial_precision": 0.7741935483870968
+    },
+    "DATE": {
+     "predicted": 91,
+     "partial_precision": 0.8901098901098901
+    },
+    "CONTACT": {
+     "predicted": 79,
+     "partial_precision": 0.9746835443037974
+    },
+    "LOCATION": {
+     "predicted": 65,
+     "partial_precision": 0.9384615384615385
+    },
+    "AGE": {
+     "predicted": 16,
+     "partial_precision": 1.0
+    },
+    "ORGANIZATION": {
+     "predicted": 4,
+     "partial_precision": 1.0
+    }
+   },
+   "name_subtypes": {
+    "compared": 116,
+    "subtype_correct": 116,
+    "accuracy": 1.0
+   },
+   "hard_negatives": {
+    "total": 308,
+    "redacted": 24,
+    "rate": 0.07792207792207792,
+    "by_kind": {
+     "blood_pressure": {
+      "total": 24,
+      "redacted": 2,
+      "rate": 0.08333333333333333
+     },
+     "code": {
+      "total": 8,
+      "redacted": 8,
+      "rate": 1.0
+     },
+     "dose": {
+      "total": 32,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "duration": {
+      "total": 40,
+      "redacted": 6,
+      "rate": 0.15
+     },
+     "eponym": {
+      "total": 16,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "fraction_dose": {
+      "total": 4,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "frequency": {
+      "total": 28,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "measurement": {
+      "total": 112,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "scale": {
+      "total": 44,
+      "redacted": 8,
+      "rate": 0.18181818181818182
+     }
+    }
+   },
+   "system": "B2 Presidio + clinical NER",
+   "seconds": 4.6
+  },
+  "B2-max": {
+   "entity_strict": {
+    "precision": 0.5617977528089888,
+    "recall": 0.5050505050505051,
+    "f1": 0.5319148936170213,
+    "f2": 0.5154639175257733
+   },
+   "entity_exact": {
+    "precision": 0.5617977528089888,
+    "recall": 0.5050505050505051,
+    "f1": 0.5319148936170213,
+    "f2": 0.5154639175257733
+   },
+   "entity_partial": {
+    "precision": 0.8876404494382022,
+    "recall": 0.8257575757575758,
+    "f1": 0.8555814993293258,
+    "f2": 0.8374341119950207
+   },
+   "entity_partial_typed": {
+    "precision": 0.8848314606741573,
+    "recall": 0.8257575757575758,
+    "f1": 0.8542744824840766,
+    "f2": 0.8369327821220336
+   },
+   "token_binary": {
+    "precision": 0.9138627187079408,
+    "recall": 0.7886178861788617,
+    "f1": 0.8466334164588529,
+    "f2": 0.810843085741581
+   },
+   "token_typed": {
+    "precision": 0.9125168236877523,
+    "recall": 0.7874564459930313,
+    "f1": 0.8453865336658354,
+    "f2": 0.809648913303081
+   },
+   "char": {
+    "recall": 0.7853953244024166,
+    "leak_rate": 0.21460467559758345,
+    "precision": 0.9396605908233815
+   },
+   "doc_zero_leak_rate": 0.0,
+   "counts": {
+    "docs": 40,
+    "partial_gold": 396,
+    "partial_pred": 356,
+    "char_gold": 3807,
+    "zero_leak": 0
+   },
+   "ci95": {
+    "strict_f1": [
+     0.4910569105691057,
+     0.5706293706293706
+    ],
+    "strict_f2": [
+     0.4769152714358194,
+     0.5535055350553506
+    ],
+    "exact_f2": [
+     0.4769152714358194,
+     0.5535055350553506
+    ],
+    "partial_recall": [
+     0.8011869436201781,
+     0.8518518518518519
+    ],
+    "partial_precision": [
+     0.8564102564102564,
+     0.9168975069252078
+    ],
+    "partial_f2": [
+     0.8163798781491848,
+     0.8579040852575489
+    ],
+    "token_f2": [
+     0.7819037656903766,
+     0.8364164904862581
+    ],
+    "token_typed_f2": [
+     0.7812904897641876,
+     0.8351624231782265
+    ],
+    "char_leak_rate": [
+     0.18693693693693691,
+     0.24611330698287215
+    ],
+    "doc_zero_leak_rate": [
+     0.0,
+     0.0
+    ]
+   },
+   "recall_by_gold_category": {
+    "NAME": {
+     "support": 124,
+     "partial_recall": 0.8629032258064516,
+     "strict_recall": 0.3870967741935484,
+     "char_recall": 0.796711509715994
+    },
+    "DATE": {
+     "support": 76,
+     "partial_recall": 1.0,
+     "strict_recall": 0.8421052631578947,
+     "char_recall": 0.9429477020602218
+    },
+    "LOCATION": {
+     "support": 72,
+     "partial_recall": 0.7638888888888888,
+     "strict_recall": 0.20833333333333334,
+     "char_recall": 0.7019108280254777
+    },
+    "ID": {
+     "support": 56,
+     "partial_recall": 0.5178571428571429,
+     "strict_recall": 0.42857142857142855,
+     "char_recall": 0.5452755905511811
+    },
+    "CONTACT": {
+     "support": 44,
+     "partial_recall": 1.0,
+     "strict_recall": 0.7727272727272727,
+     "char_recall": 1.0
+    },
+    "AGE": {
+     "support": 16,
+     "partial_recall": 0.75,
+     "strict_recall": 0.75,
+     "char_recall": 0.75
+    },
+    "ORGANIZATION": {
+     "support": 4,
+     "partial_recall": 1.0,
+     "strict_recall": 0.75,
+     "char_recall": 1.0
+    },
+    "PROFESSION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    }
+   },
+   "precision_by_pred_category": {
+    "NAME": {
+     "predicted": 107,
+     "partial_precision": 1.0
+    },
+    "DATE": {
+     "predicted": 84,
+     "partial_precision": 0.9047619047619048
+    },
+    "ID": {
+     "predicted": 59,
+     "partial_precision": 0.4915254237288136
+    },
+    "CONTACT": {
+     "predicted": 46,
+     "partial_precision": 0.9565217391304348
+    },
+    "LOCATION": {
+     "predicted": 44,
+     "partial_precision": 1.0
+    },
+    "AGE": {
+     "predicted": 12,
+     "partial_precision": 1.0
+    },
+    "ORGANIZATION": {
+     "predicted": 4,
+     "partial_precision": 1.0
+    }
+   },
+   "name_subtypes": {
+    "compared": 99,
+    "subtype_correct": 99,
+    "accuracy": 1.0
+   },
+   "hard_negatives": {
+    "total": 308,
+    "redacted": 24,
+    "rate": 0.07792207792207792,
+    "by_kind": {
+     "blood_pressure": {
+      "total": 24,
+      "redacted": 2,
+      "rate": 0.08333333333333333
+     },
+     "code": {
+      "total": 8,
+      "redacted": 8,
+      "rate": 1.0
+     },
+     "dose": {
+      "total": 32,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "duration": {
+      "total": 40,
+      "redacted": 6,
+      "rate": 0.15
+     },
+     "eponym": {
+      "total": 16,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "fraction_dose": {
+      "total": 4,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "frequency": {
+      "total": 28,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "measurement": {
+      "total": 112,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "scale": {
+      "total": 44,
+      "redacted": 8,
+      "rate": 0.18181818181818182
+     }
+    }
+   },
+   "system": "B2 with Presidio's default max aggregation",
+   "seconds": 4.6
+  },
+  "P1-spacy": {
+   "entity_strict": {
+    "precision": 0.7305263157894737,
+    "recall": 0.8762626262626263,
+    "f1": 0.7967853042479908,
+    "f2": 0.8426420592520641
+   },
+   "entity_exact": {
+    "precision": 0.7368421052631579,
+    "recall": 0.8838383838383839,
+    "f1": 0.8036739380022963,
+    "f2": 0.8499271491015057
+   },
+   "entity_partial": {
+    "precision": 0.7768421052631579,
+    "recall": 0.9217171717171717,
+    "f1": 0.8431012303637881,
+    "f2": 0.8885747046660976
+   },
+   "entity_partial_typed": {
+    "precision": 0.7536842105263157,
+    "recall": 0.9065656565656566,
+    "f1": 0.8230860121744643,
+    "f2": 0.8712210055084281
+   },
+   "token_binary": {
+    "precision": 0.8512221041445271,
+    "recall": 0.9303135888501742,
+    "f1": 0.8890122086570478,
+    "f2": 0.9133409350057015
+   },
+   "token_typed": {
+    "precision": 0.8352816153028693,
+    "recall": 0.9128919860627178,
+    "f1": 0.872364039955605,
+    "f2": 0.8962371721778792
+   },
+   "char": {
+    "recall": 0.9230365116889939,
+    "leak_rate": 0.07696348831100608,
+    "precision": 0.8695867359564464
+   },
+   "doc_zero_leak_rate": 0.6,
+   "counts": {
+    "docs": 40,
+    "partial_gold": 396,
+    "partial_pred": 475,
+    "char_gold": 3807,
+    "zero_leak": 24
+   },
+   "ci95": {
+    "strict_f1": [
+     0.7754629629629629,
+     0.8215158924205378
+    ],
+    "strict_f2": [
+     0.8151922186197313,
+     0.8744280630401627
+    ],
+    "exact_f2": [
+     0.8218864468864469,
+     0.8784448818897638
+    ],
+    "partial_recall": [
+     0.8947368421052632,
+     0.9501557632398754
+    ],
+    "partial_precision": [
+     0.7446808510638298,
+     0.8108695652173913
+    ],
+    "partial_f2": [
+     0.8678516370577007,
+     0.9081311528323202
+    ],
+    "token_f2": [
+     0.8927871422971384,
+     0.9321245932124592
+    ],
+    "token_typed_f2": [
+     0.8729227761485827,
+     0.9216467463479416
+    ],
+    "char_leak_rate": [
+     0.045372596153846145,
+     0.1078334159643034
+    ],
+    "doc_zero_leak_rate": [
+     0.45,
+     0.75
+    ]
+   },
+   "recall_by_gold_category": {
+    "NAME": {
+     "support": 124,
+     "partial_recall": 1.0,
+     "strict_recall": 0.9919354838709677,
+     "char_recall": 1.0
+    },
+    "DATE": {
+     "support": 76,
+     "partial_recall": 0.9868421052631579,
+     "strict_recall": 0.8947368421052632,
+     "char_recall": 0.96513470681458
+    },
+    "LOCATION": {
+     "support": 72,
+     "partial_recall": 0.6805555555555556,
+     "strict_recall": 0.5555555555555556,
+     "char_recall": 0.780891719745223
+    },
+    "ID": {
+     "support": 56,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "CONTACT": {
+     "support": 44,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "AGE": {
+     "support": 16,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "ORGANIZATION": {
+     "support": 4,
+     "partial_recall": 0.25,
+     "strict_recall": 0.0,
+     "char_recall": 0.18181818181818182
+    },
+    "PROFESSION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    }
+   },
+   "precision_by_pred_category": {
+    "NAME": {
+     "predicted": 182,
+     "partial_precision": 0.6868131868131868
+    },
+    "DATE": {
+     "predicted": 96,
+     "partial_precision": 0.8333333333333334
+    },
+    "LOCATION": {
+     "predicted": 80,
+     "partial_precision": 0.5875
+    },
+    "ID": {
+     "predicted": 56,
+     "partial_precision": 1.0
+    },
+    "CONTACT": {
+     "predicted": 45,
+     "partial_precision": 1.0
+    },
+    "AGE": {
+     "predicted": 16,
+     "partial_precision": 1.0
+    }
+   },
+   "name_subtypes": {
+    "compared": 112,
+    "subtype_correct": 112,
+    "accuracy": 1.0
+   },
+   "hard_negatives": {
+    "total": 308,
+    "redacted": 23,
+    "rate": 0.07467532467532467,
+    "by_kind": {
+     "blood_pressure": {
+      "total": 24,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "code": {
+      "total": 8,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "dose": {
+      "total": 32,
+      "redacted": 4,
+      "rate": 0.125
+     },
+     "duration": {
+      "total": 40,
+      "redacted": 4,
+      "rate": 0.1
+     },
+     "eponym": {
+      "total": 16,
+      "redacted": 11,
+      "rate": 0.6875
+     },
+     "fraction_dose": {
+      "total": 4,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "frequency": {
+      "total": 28,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "measurement": {
+      "total": 112,
+      "redacted": 4,
+      "rate": 0.03571428571428571
+     },
+     "scale": {
+      "total": 44,
+      "redacted": 0,
+      "rate": 0.0
+     }
+    }
+   },
+   "system": "P1 with spaCy NER",
+   "seconds": 0.2
+  },
+  "P1-noveto": {
+   "entity_strict": {
+    "precision": 0.935251798561151,
+    "recall": 0.9848484848484849,
+    "f1": 0.959409594095941,
+    "f2": 0.9745127436281859
+   },
+   "entity_exact": {
+    "precision": 0.935251798561151,
+    "recall": 0.9848484848484849,
+    "f1": 0.959409594095941,
+    "f2": 0.9745127436281859
+   },
+   "entity_partial": {
+    "precision": 0.9448441247002398,
+    "recall": 0.98989898989899,
+    "f1": 0.9668469551282052,
+    "f2": 0.9805475138402154
+   },
+   "entity_partial_typed": {
+    "precision": 0.9400479616306955,
+    "recall": 0.98989898989899,
+    "f1": 0.964329643296433,
+    "f2": 0.9795102448775611
+   },
+   "token_binary": {
+    "precision": 0.9574468085106383,
+    "recall": 0.9930313588850174,
+    "f1": 0.9749144811858609,
+    "f2": 0.9857044039658749
+   },
+   "token_typed": {
+    "precision": 0.9552071668533034,
+    "recall": 0.9907084785133565,
+    "f1": 0.9726339794754846,
+    "f2": 0.9833986626700485
+   },
+   "char": {
+    "recall": 0.9905437352245863,
+    "leak_rate": 0.009456264775413725,
+    "precision": 0.9646968534151957
+   },
+   "doc_zero_leak_rate": 0.9,
+   "counts": {
+    "docs": 40,
+    "partial_gold": 396,
+    "partial_pred": 417,
+    "char_gold": 3807,
+    "zero_leak": 36
+   },
+   "ci95": {
+    "strict_f1": [
+     0.9443838604143947,
+     0.975609756097561
+    ],
+    "strict_f2": [
+     0.9622411693057248,
+     0.9873617693522907
+    ],
+    "exact_f2": [
+     0.9622411693057248,
+     0.9873617693522907
+    ],
+    "partial_recall": [
+     0.9821428571428571,
+     0.9973190348525469
+    ],
+    "partial_precision": [
+     0.9258426966292135,
+     0.9645390070921985
+    ],
+    "partial_f2": [
+     0.9734522642182208,
+     0.9890350743678883
+    ],
+    "token_f2": [
+     0.9802571166207531,
+     0.9916005599626692
+    ],
+    "token_typed_f2": [
+     0.9764463754859363,
+     0.9912280701754386
+    ],
+    "char_leak_rate": [
+     0.0024979184013321776,
+     0.016479743648432188
+    ],
+    "doc_zero_leak_rate": [
+     0.8,
+     0.975
+    ]
+   },
+   "recall_by_gold_category": {
+    "NAME": {
+     "support": 124,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "DATE": {
+     "support": 76,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "LOCATION": {
+     "support": 72,
+     "partial_recall": 1.0,
+     "strict_recall": 0.9861111111111112,
+     "char_recall": 1.0
+    },
+    "ID": {
+     "support": 56,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "CONTACT": {
+     "support": 44,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "AGE": {
+     "support": 16,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "ORGANIZATION": {
+     "support": 4,
+     "partial_recall": 1.0,
+     "strict_recall": 0.75,
+     "char_recall": 1.0
+    },
+    "PROFESSION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    }
+   },
+   "precision_by_pred_category": {
+    "NAME": {
+     "predicted": 124,
+     "partial_precision": 1.0
+    },
+    "DATE": {
+     "predicted": 86,
+     "partial_precision": 0.8837209302325582
+    },
+    "LOCATION": {
+     "predicted": 78,
+     "partial_precision": 0.9358974358974359
+    },
+    "ID": {
+     "predicted": 60,
+     "partial_precision": 0.9333333333333333
+    },
+    "CONTACT": {
+     "predicted": 47,
+     "partial_precision": 0.9574468085106383
+    },
+    "AGE": {
+     "predicted": 18,
+     "partial_precision": 0.8888888888888888
+    },
+    "ORGANIZATION": {
+     "predicted": 4,
+     "partial_precision": 1.0
+    }
+   },
+   "name_subtypes": {
+    "compared": 116,
+    "subtype_correct": 116,
+    "accuracy": 1.0
+   },
+   "hard_negatives": {
+    "total": 308,
+    "redacted": 16,
+    "rate": 0.05194805194805195,
+    "by_kind": {
+     "blood_pressure": {
+      "total": 24,
+      "redacted": 2,
+      "rate": 0.08333333333333333
+     },
+     "code": {
+      "total": 8,
+      "redacted": 6,
+      "rate": 0.75
+     },
+     "dose": {
+      "total": 32,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "duration": {
+      "total": 40,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "eponym": {
+      "total": 16,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "fraction_dose": {
+      "total": 4,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "frequency": {
+      "total": 28,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "measurement": {
+      "total": 112,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "scale": {
+      "total": 44,
+      "redacted": 8,
+      "rate": 0.18181818181818182
+     }
+    }
+   },
+   "system": "P1 without hard-negative vetoes",
+   "seconds": 0.1
+  },
+  "P1": {
+   "entity_strict": {
+    "precision": 0.9582309582309583,
+    "recall": 0.9848484848484849,
+    "f1": 0.9713574097135742,
+    "f2": 0.979407332998493
+   },
+   "entity_exact": {
+    "precision": 0.9582309582309583,
+    "recall": 0.9848484848484849,
+    "f1": 0.9713574097135742,
+    "f2": 0.979407332998493
+   },
+   "entity_partial": {
+    "precision": 0.9680589680589681,
+    "recall": 0.98989898989899,
+    "f1": 0.9788571718298434,
+    "f2": 0.9854525037006788
+   },
+   "entity_partial_typed": {
+    "precision": 0.9631449631449631,
+    "recall": 0.98989898989899,
+    "f1": 0.9763387297633872,
+    "f2": 0.9844299347061778
+   },
+   "token_binary": {
+    "precision": 0.979381443298969,
+    "recall": 0.9930313588850174,
+    "f1": 0.9861591695501729,
+    "f2": 0.9902710215427379
+   },
+   "token_typed": {
+    "precision": 0.97709049255441,
+    "recall": 0.9907084785133565,
+    "f1": 0.9838523644752019,
+    "f2": 0.9879545981005328
+   },
+   "char": {
+    "recall": 0.9905437352245863,
+    "leak_rate": 0.009456264775413725,
+    "precision": 0.9731612903225807
+   },
+   "doc_zero_leak_rate": 0.9,
+   "counts": {
+    "docs": 40,
+    "partial_gold": 396,
+    "partial_pred": 407,
+    "char_gold": 3807,
+    "zero_leak": 36
+   },
+   "ci95": {
+    "strict_f1": [
+     0.957345971563981,
+     0.9867374005305041
+    ],
+    "strict_f2": [
+     0.9660068846815836,
+     0.9928688974218322
+    ],
+    "exact_f2": [
+     0.9660068846815836,
+     0.9928688974218322
+    ],
+    "partial_recall": [
+     0.9821428571428571,
+     0.9973190348525469
+    ],
+    "partial_precision": [
+     0.9537037037037037,
+     0.9823232323232324
+    ],
+    "partial_f2": [
+     0.9779400095222981,
+     0.9935725763256561
+    ],
+    "token_f2": [
+     0.9843885516045101,
+     0.9963579604578565
+    ],
+    "token_typed_f2": [
+     0.9801783944499505,
+     0.9959252157238734
+    ],
+    "char_leak_rate": [
+     0.0024979184013321776,
+     0.016479743648432188
+    ],
+    "doc_zero_leak_rate": [
+     0.8,
+     0.975
+    ]
+   },
+   "recall_by_gold_category": {
+    "NAME": {
+     "support": 124,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "DATE": {
+     "support": 76,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "LOCATION": {
+     "support": 72,
+     "partial_recall": 1.0,
+     "strict_recall": 0.9861111111111112,
+     "char_recall": 1.0
+    },
+    "ID": {
+     "support": 56,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "CONTACT": {
+     "support": 44,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "AGE": {
+     "support": 16,
+     "partial_recall": 1.0,
+     "strict_recall": 1.0,
+     "char_recall": 1.0
+    },
+    "ORGANIZATION": {
+     "support": 4,
+     "partial_recall": 1.0,
+     "strict_recall": 0.75,
+     "char_recall": 1.0
+    },
+    "PROFESSION": {
+     "support": 4,
+     "partial_recall": 0.0,
+     "strict_recall": 0.0,
+     "char_recall": 0.0
+    }
+   },
+   "precision_by_pred_category": {
+    "NAME": {
+     "predicted": 124,
+     "partial_precision": 1.0
+    },
+    "LOCATION": {
+     "predicted": 78,
+     "partial_precision": 0.9358974358974359
+    },
+    "DATE": {
+     "predicted": 78,
+     "partial_precision": 0.9743589743589743
+    },
+    "ID": {
+     "predicted": 60,
+     "partial_precision": 0.9333333333333333
+    },
+    "CONTACT": {
+     "predicted": 45,
+     "partial_precision": 1.0
+    },
+    "AGE": {
+     "predicted": 18,
+     "partial_precision": 0.8888888888888888
+    },
+    "ORGANIZATION": {
+     "predicted": 4,
+     "partial_precision": 1.0
+    }
+   },
+   "name_subtypes": {
+    "compared": 116,
+    "subtype_correct": 116,
+    "accuracy": 1.0
+   },
+   "hard_negatives": {
+    "total": 308,
+    "redacted": 6,
+    "rate": 0.01948051948051948,
+    "by_kind": {
+     "blood_pressure": {
+      "total": 24,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "code": {
+      "total": 8,
+      "redacted": 6,
+      "rate": 0.75
+     },
+     "dose": {
+      "total": 32,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "duration": {
+      "total": 40,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "eponym": {
+      "total": 16,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "fraction_dose": {
+      "total": 4,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "frequency": {
+      "total": 28,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "measurement": {
+      "total": 112,
+      "redacted": 0,
+      "rate": 0.0
+     },
+     "scale": {
+      "total": 44,
+      "redacted": 0,
+      "rate": 0.0
+     }
+    }
+   },
+   "system": "P1 Phase-1 clinical",
+   "seconds": 0.1
+  }
+ },
+ "paired_differences": {
+  "P1 - B1": {
+   "strict_f1": {
+    "diff": 0.4506473505419766,
+    "ci": [
+     0.42113782929949606,
+     0.48257444450230225
+    ]
+   },
+   "strict_f2": {
+    "diff": 0.43833502606292984,
+    "ci": [
+     0.406209781209781,
+     0.4709598603839442
+    ]
+   },
+   "exact_f2": {
+    "diff": 0.391606054100313,
+    "ci": [
+     0.35768396632762556,
+     0.42816123918907656
+    ]
+   },
+   "partial_recall": {
+    "diff": 0.26010101010101017,
+    "ci": [
+     0.22395833333333337,
+     0.2938144329896908
+    ]
+   },
+   "partial_precision": {
+    "diff": 0.3065890348741128,
+    "ci": [
+     0.2772072457566681,
+     0.33597041751377477
+    ]
+   },
+   "partial_f2": {
+    "diff": 0.2704265710672129,
+    "ci": [
+     0.2412090384126664,
+     0.2977883604356183
+    ]
+   },
+   "token_f2": {
+    "diff": 0.2811336116380646,
+    "ci": [
+     0.2511297830371999,
+     0.31324027381390696
+    ]
+   },
+   "token_typed_f2": {
+    "diff": 0.34856840884222084,
+    "ci": [
+     0.31770704577683395,
+     0.38531806326060813
+    ]
+   },
+   "char_leak_rate": {
+    "diff": -0.28395061728395066,
+    "ci": [
+     -0.3292331850300968,
+     -0.24137931034482762
+    ]
+   },
+   "doc_zero_leak_rate": {
+    "diff": 0.875,
+    "ci": [
+     0.7749999999999999,
+     0.975
+    ]
+   }
+  },
+  "P1 - B0": {
+   "strict_f1": {
+    "diff": 0.6146439828598669,
+    "ci": [
+     0.5750197005516153,
+     0.6625747962035945
+    ]
+   },
+   "strict_f2": {
+    "diff": 0.7156254717062583,
+    "ci": [
+     0.6803978962899504,
+     0.7569319631433437
+    ]
+   },
+   "exact_f2": {
+    "diff": 0.7067339482919133,
+    "ci": [
+     0.6719244352506802,
+     0.7479658359997714
+    ]
+   },
+   "partial_recall": {
+    "diff": 0.7550505050505051,
+    "ci": [
+     0.7231121281464532,
+     0.7912772585669782
+    ]
+   },
+   "partial_precision": {
+    "diff": 0.06514634669974473,
+    "ci": [
+     0.012290527141580743,
+     0.12069661651099572
+    ]
+   },
+   "partial_f2": {
+    "diff": 0.7098152778559841,
+    "ci": [
+     0.6752575197330468,
+     0.7488107083780488
+    ]
+   },
+   "token_f2": {
+    "diff": 0.6250047651873727,
+    "ci": [
+     0.5792312703827422,
+     0.6781721163316773
+    ]
+   },
+   "token_typed_f2": {
+    "diff": 0.6307161715551755,
+    "ci": [
+     0.5848454174950539,
+     0.6839692177809527
+    ]
+   },
+   "char_leak_rate": {
+    "diff": -0.7696348831100603,
+    "ci": [
+     -0.8047716777834787,
+     -0.7369378736677931
+    ]
+   },
+   "doc_zero_leak_rate": {
+    "diff": 0.9,
+    "ci": [
+     0.8,
+     0.975
+    ]
+   }
+  },
+  "B2 - B1": {
+   "strict_f1": {
+    "diff": 0.1976934885002427,
+    "ci": [
+     0.15920625895881557,
+     0.2375265251989389
+    ]
+   },
+   "strict_f2": {
+    "diff": 0.23404731028931725,
+    "ci": [
+     0.20134323227351392,
+     0.2694596641915902
+    ]
+   },
+   "exact_f2": {
+    "diff": 0.19449537181952337,
+    "ci": [
+     0.15844315233857287,
+     0.23167803956472655
+    ]
+   },
+   "partial_recall": {
+    "diff": 0.26010101010101017,
+    "ci": [
+     0.22395833333333337,
+     0.2938144329896908
+    ]
+   },
+   "partial_precision": {
+    "diff": 0.2476209759060538,
+    "ci": [
+     0.21309268159661854,
+     0.27584276463112023
+    ]
+   },
+   "partial_f2": {
+    "diff": 0.2575822452148865,
+    "ci": [
+     0.22525504769233184,
+     0.286362530731503
+    ]
+   },
+   "token_f2": {
+    "diff": 0.271142342445705,
+    "ci": [
+     0.24096625427141438,
+     0.3038763086428917
+    ]
+   },
+   "token_typed_f2": {
+    "diff": 0.3030582042294204,
+    "ci": [
+     0.2704445903593141,
+     0.34040505236072627
+    ]
+   },
+   "char_leak_rate": {
+    "diff": -0.28395061728395066,
+    "ci": [
+     -0.3292331850300968,
+     -0.24137931034482762
+    ]
+   },
+   "doc_zero_leak_rate": {
+    "diff": 0.875,
+    "ci": [
+     0.7749999999999999,
+     0.975
+    ]
+   }
+  },
+  "P1 - B2": {
+   "strict_f1": {
+    "diff": 0.25295386204173387,
+    "ci": [
+     0.2165275382666687,
+     0.2940065474691512
+    ]
+   },
+   "strict_f2": {
+    "diff": 0.2042877157736126,
+    "ci": [
+     0.17601546795841294,
+     0.23465160139200625
+    ]
+   },
+   "exact_f2": {
+    "diff": 0.19711068228078965,
+    "ci": [
+     0.1705793664623565,
+     0.22726956549624278
+    ]
+   },
+   "partial_recall": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "partial_precision": {
+    "diff": 0.05896805896805901,
+    "ci": [
+     0.0358564792871362,
+     0.08515192336476574
+    ]
+   },
+   "partial_f2": {
+    "diff": 0.012844325852326421,
+    "ci": [
+     0.007651743738678496,
+     0.018894132554332477
+    ]
+   },
+   "token_f2": {
+    "diff": 0.009991269192359598,
+    "ci": [
+     0.006557429021251782,
+     0.013690422216177223
+    ]
+   },
+   "token_typed_f2": {
+    "diff": 0.04551020461280042,
+    "ci": [
+     0.028717457417979042,
+     0.06362911626964751
+    ]
+   },
+   "char_leak_rate": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "doc_zero_leak_rate": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "P1 - P1-noveto": {
+   "strict_f1": {
+    "diff": 0.01194781561763325,
+    "ci": [
+     0.0052732020891922415,
+     0.018993709830870453
+    ]
+   },
+   "strict_f2": {
+    "diff": 0.0048945893703071786,
+    "ci": [
+     0.0021341730079597054,
+     0.007822374867371917
+    ]
+   },
+   "exact_f2": {
+    "diff": 0.0048945893703071786,
+    "ci": [
+     0.0021341730079597054,
+     0.007822374867371917
+    ]
+   },
+   "partial_recall": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "partial_precision": {
+    "diff": 0.023214843358728254,
+    "ci": [
+     0.010412245706363454,
+     0.036387101099490504
+    ]
+   },
+   "partial_f2": {
+    "diff": 0.0049049898604633935,
+    "ci": [
+     0.002136545635265663,
+     0.007831180184591835
+    ]
+   },
+   "token_f2": {
+    "diff": 0.004566617576863052,
+    "ci": [
+     0.001991261764545671,
+     0.007257169977254896
+    ]
+   },
+   "token_typed_f2": {
+    "diff": 0.00455593543048427,
+    "ci": [
+     0.0019835451287063544,
+     0.007247595874382173
+    ]
+   },
+   "char_leak_rate": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "doc_zero_leak_rate": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "P1 - P1-spacy": {
+   "strict_f1": {
+    "diff": 0.17457210546558344,
+    "ci": [
+     0.15392792363356012,
+     0.19732519676057936
+    ]
+   },
+   "strict_f2": {
+    "diff": 0.13676527374642888,
+    "ci": [
+     0.11099292375522984,
+     0.16373884331630817
+    ]
+   },
+   "exact_f2": {
+    "diff": 0.12948018389698734,
+    "ci": [
+     0.10328971619294203,
+     0.15963735295898407
+    ]
+   },
+   "partial_recall": {
+    "diff": 0.06818181818181823,
+    "ci": [
+     0.04336734693877553,
+     0.09382716049382711
+    ]
+   },
+   "partial_precision": {
+    "diff": 0.19121686279581018,
+    "ci": [
+     0.15971867007672635,
+     0.22139279624893438
+    ]
+   },
+   "partial_f2": {
+    "diff": 0.09687779903458127,
+    "ci": [
+     0.0790873014775485,
+     0.1159806108380107
+    ]
+   },
+   "token_f2": {
+    "diff": 0.07693008653703648,
+    "ci": [
+     0.059789303340391564,
+     0.09582240531592967
+    ]
+   },
+   "token_typed_f2": {
+    "diff": 0.09171742592265353,
+    "ci": [
+     0.07127759934760636,
+     0.11261629687182295
+    ]
+   },
+   "char_leak_rate": {
+    "diff": -0.06750722353559235,
+    "ci": [
+     -0.09415158667715717,
+     -0.04054878048780497
+    ]
+   },
+   "doc_zero_leak_rate": {
+    "diff": 0.30000000000000004,
+    "ci": [
+     0.15000000000000002,
+     0.42500000000000004
+    ]
+   }
+  },
+  "B2 - B2-max": {
+   "strict_f1": {
+    "diff": 0.18648865405481907,
+    "ci": [
+     0.1510770975056689,
+     0.22538457480695184
+    ]
+   },
+   "strict_f2": {
+    "diff": 0.2596556996991072,
+    "ci": [
+     0.2266879837178607,
+     0.2965913538102673
+    ]
+   },
+   "exact_f2": {
+    "diff": 0.2668327331919301,
+    "ci": [
+     0.23562214235675005,
+     0.30313225683945777
+    ]
+   },
+   "partial_recall": {
+    "diff": 0.16414141414141414,
+    "ci": [
+     0.13832199546485258,
+     0.19075144508670516
+    ]
+   },
+   "partial_precision": {
+    "diff": 0.021450459652706866,
+    "ci": [
+     0.006592083626967393,
+     0.03586415747350202
+    ]
+   },
+   "partial_f2": {
+    "diff": 0.1351740658533317,
+    "ci": [
+     0.11265331208891793,
+     0.15840157886101647
+    ]
+   },
+   "token_f2": {
+    "diff": 0.1694366666087973,
+    "ci": [
+     0.1450700022671293,
+     0.1973257534560574
+    ]
+   },
+   "token_typed_f2": {
+    "diff": 0.13279548018465137,
+    "ci": [
+     0.10862595210523096,
+     0.15704120120988652
+    ]
+   },
+   "char_leak_rate": {
+    "diff": -0.20514841082216972,
+    "ci": [
+     -0.23904382470119523,
+     -0.1776480400333611
+    ]
+   },
+   "doc_zero_leak_rate": {
+    "diff": 0.9,
+    "ci": [
+     0.8,
+     0.975
+    ]
+   }
+  }
+ }
+}
